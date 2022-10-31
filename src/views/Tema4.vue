@@ -4,8 +4,8 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 3
-      h1 El átomo: unidad fundamental
+        span 4
+      h1 Transformaciones químicas
 
 </template>
 
