@@ -93,6 +93,14 @@
   background-color: #F6DFB8
   border-radius: 10px
 
+.bg9
+  background-image: url("../assets/curso/tema1/img12.png")
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  @media (max-width: $bp-max-md) 
+    background-image: none
+    background-color: #F0F1F7 
+  
 
 .linea-tiempo-c__header__item__year
   color: white
@@ -173,6 +181,7 @@
 
 table 
   border-collapse: initial
+
 .bgr
   background-image: url("../assets/curso/tema2/atomo.svg")
   background-repeat: no-repeat
@@ -370,4 +379,34 @@ table
   background-color: #DFDFE1
 
     
+//tema3
     
+.bg_grad_03-1
+  position: relative
+  .bgr, h3 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: 10px
+    left: 6px
+    width: 20%
+    height: 51%
+    background-color: #F9A829
+    border-top-left-radius: 30px
+    border-bottom-left-radius: 30px
+
+.tarjeta--azul
+  background-color: #31313C
+  border-radius: 10px
+
+.slyder-a__bullets__item
+  background-color:#2BE9D6
+  border-color: #2BE9D6
+
+.slyder-a__btn--sigt
+  background-color: #2BE9D6
+
+.slyder-a__btn--atrs
+  background-color: #2BE9D6
