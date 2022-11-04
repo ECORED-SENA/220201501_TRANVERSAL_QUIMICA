@@ -303,7 +303,7 @@
     
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/nV_bwV7PJpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
      
     .row.mb-5
       .col-xl-7
@@ -740,6 +740,65 @@
           img.w-auto(src='@/assets/curso/tema3/img33.svg')
     
     
+    .bg_grad_03
+      .bgr.px-5.pt-3.pb-4.mb-3(data-aos="fade-down-right")
+        h3.mb-0 Oxigenados
+    
+    TabsC.color-acento-contenido.bgr_6.mb-5
+      .py-3.py-md-4(titulo="Alcoholes")
+        .row.justify-content-center.p-5
+          p.text-bold Alcoholes
+          .col-xl-7.mb-4.mb-xl-0
+            p Formados por cadenas de carbono a la cual se une un radical hidroxilo (OH)-. Se nombran de manera similar a los alcanos considerando que su terminación es -ol. Tener en cuenta que se debe incluir un número al inicio de la palabra que indique el lugar de ubicación del radical hidroxilo en la cadena. 
+          .col-xl-5
+            figure.d-flex.justify-content-center
+              img.w-auto(src='@/assets/curso/tema3/img38.svg')
+      .py-3.py-md-4(titulo="Aldehídos")
+        .row.justify-content-center.p-5
+          p.text-bold Aldehídos
+          .col-xl-7.mb-4.mb-xl-0
+            p Formados por cadenas de carbono a la cual se une un radical carbonilo terminal (-CHO). Se nombran de manera similar a los alcanos considerando que su terminación es -al. El radical carbonilo siempre está ubicado al final de la cadena, por tanto, no se debe incluir algún número indicador. 
+          .col-xl-5
+            figure.d-flex.justify-content-center
+              img.w-auto(src='@/assets/curso/tema3/img39.svg')
+      .py-3.py-md-4(titulo="Cetonas")
+        .row.justify-content-center.p-5
+          p.text-bold Cetonas
+          .col-xl-7.mb-4.mb-xl-0
+            p Formados por cadenas de carbono a la cual se une un radical carbonilo intermedio (C=O). Se nombran de manera similar a los alcanos considerando que su terminación es -ona. Tener en cuenta que se debe incluir un número al inicio de la palabra que indique el lugar de ubicación del radical carbonilo en la cadena.  
+          .col-xl-5
+            figure.d-flex.justify-content-center
+              img.w-auto(src='@/assets/curso/tema3/img40.svg')
+      .py-3.py-md-4(titulo="Ácidos orgánicos")
+        .row.justify-content-center.p-5
+          p.text-bold Ácidos orgánicos
+          .col-xl-7.mb-4.mb-xl-0
+            p Formados por cadenas de carbono a la cual se une un radical carboxilo (-COOH). Se nombran de manera similar a los alcanos considerando que su terminación es -oico y se antepone la palabra ácido. El radical carboxilo siempre está ubicado al final de la cadena, por tanto, no se debe incluir algún número indicador. 
+          .col-xl-5
+            figure.d-flex.justify-content-center
+              img.w-auto(src='@/assets/curso/tema3/img41.svg')
+    
+    .bg_grad_03
+      .bgr.px-5.pt-3.pb-4.mb-3(data-aos="fade-down-right")
+        h3.mb-0 Funciones nitrogenadas
+    
+    p.mb-5 Hace referencia a cadenas carbonadas que incluyen al menos un átomo de oxígeno en su estructura. Entre las funciones orgánicas se encuentran:
+
+    .row
+      .col-xl-6.bgr_20.p-5
+        h4.text-center.txt-color2 Aminas 
+        p.mb-5.text-white.text-center Formados por cadenas de carbono donde existe unido al menos un radical amino (-NH2). Se nombran de manera similar a los alcanos considerando que su terminación es -amina. Tener en cuenta que se debe incluir un número al inicio de la palabra que indique el lugar de ubicación del radical en la cadena. 
+        figure.d-flex.justify-content-center
+          img.w-auto(src='@/assets/curso/tema3/img42.svg')
+      .col-xl-6.bgr_9.p-5
+        h4.text-center Aminas 
+        p.text-center La anilina, una amina aromática, y sus derivados son sustancias de uso amplio y diverso. Entre éstos se encuentra la fabricación de pigmentos, pinturas y barnices. 
+        p.mb-5 Las moléculas orgánicas pueden representarse de múltiples maneras. La imagen corresponde al ácido butanoico en su fórmula: (a) Desarrollada, (b) Simplificada (cada vértice es un átomo de carbono. (c) Condensada. 
+        figure.d-flex.justify-content-center
+          img.w-auto(src='@/assets/curso/tema3/img43.svg')
+    
+
+
                             
 
 
