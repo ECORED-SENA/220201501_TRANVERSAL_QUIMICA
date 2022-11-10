@@ -276,8 +276,7 @@ export default {
     {
       referencia:
         'Arroyo, S., J. E. (2014). Cambios de estado de la materia. [Esquema]. Blog de ciencias de la naturaleza.',
-      link:
-        'https://www3.gobiernodecanarias.org/medusa/ecoblog/jarrsua/files/2012/12/Cambios- de-estado.jpg',
+      link: 'https://www.educ.ar/recursos/14466/cambios-de-estado',
     },
     {
       referencia:

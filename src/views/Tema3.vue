@@ -430,7 +430,7 @@
     p.mb-5 Las moléculas, al formar compuestos buscan estar eléctricamente neutras, siendo este principio la base fundamental para toda reacción química.
     .bg_grad_03
       .bgr.px-5.pt-3.pb-4.mb-3(data-aos="fade-down-right")
-        h3.mb-0 Enlace Químico
+        h3.mb-0 Enlace iónico
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-3
