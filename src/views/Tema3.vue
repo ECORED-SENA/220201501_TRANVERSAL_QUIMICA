@@ -165,7 +165,7 @@
       figure.d-flex.justify-content-center
         img.w-auto(src='@/assets/curso/tema3/img10.svg')
 
-    p Con esta tabla spin se debe tener en cuenta: 
+    p <b>Con esta tabla spin se debe tener en cuenta:</b>
     ul.lista-ul--color.mb-5
       li 
         i.fas.fa-atom.colr
@@ -174,7 +174,7 @@
         i.fas.fa-atom.colr
         | Los niveles poseen subniveles en donde cada uno puede aceptar el número de electrones de acuerdo con la siguiente figura:
     
-    p.mb-5.text-center.text-bold Capacidad de los niveles de energía.
+    p.mb-5.text-center.text-bold Capacidad de los niveles de energía
 
     figure.mb-5.d-flex.justify-content-center
       img.w-auto(src='@/assets/curso/tema3/img11.svg')
@@ -198,12 +198,12 @@
                 p.bgr_13.px-3.py-2.text-center 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p 6s 4f 5d 6p 7s 5f 6d 7p
             p En el ejemplo del Cloro que tiene número atómico de 17 es decir:
             p Z= 35, lo cual significa que tiene 35 electrones para representar electrónicamente, ósea que a la cadena anterior se va llenando con los exponentes hasta completar 17 así:
-            p Configuración electrónica del cloro.
+            p <b>Configuración electrónica del Cloro.</b>
             .row.justify-content-center.mb-3
               .col-auto
                 p.bgr_13.px-3.py-2.text-center 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>5</sup>
             p De acuerdo a lo visto anteriormente el subnivel 3p puede albergar hasta 6 electrones, pero con 5 en el caso del Cloro se completan los 17, así:
-            p Suma electrones del cloro
+            p <b> Suma electrones del Cloro.</b>
             .row.justify-content-center.mb-3
               .col-auto
                 p.bgr_13.px-3.py-2.text-center 2 + 2 + 6 + 2 + 5 = 17 electrones
@@ -220,7 +220,7 @@
             img.w-auto(src='@/assets/curso/tema3/img13.svg')
           p.text-center Z=35,5
           p.text-center.mb-0 Su número atómico es igual al número de protones p+ 
-          p.text-center.mb-0 E-=17
+          p.text-center.mb-0 e-=17
       .col-xl-4
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema3/img14.svg')
@@ -233,7 +233,7 @@
           figure.mb-3.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema3/img15.svg')
         .col-xl-4
-          p.text-bold Datos completos del cloro
+          p.text-bold Datos completos del Cloro
           p.mb-0 Los niveles en los cuales hay electrones son: 
           p <b>1,2,2,3,3</b>
           p.mb-o El último nivel energético que contiene por lo menos un electrón es: <b>3</b>
@@ -259,7 +259,7 @@
                 figure.mb-3.d-flex.justify-content-center
                   img.w-auto(src='@/assets/curso/tema3/img15.svg')
               .col-xl-8
-                p.text-bold Región donde se encuentra el cloro.
+                p.text-bold Región donde se encuentra el Cloro.
                 p.text-bold 1s<sup>2</sup>  2s<sup>2</sup>   2p<sup>6</sup>    3s<sup>2</sup>   3p <sup>5</sup>
                 p La configuración electrónica del Cloro termina en el subnivel “p” por tanto el Cloro pertenece a un grupo de la letra “A”
         .col-xl-6
@@ -269,7 +269,7 @@
                 figure.mb-3.d-flex.justify-content-center
                   img.w-auto(src='@/assets/curso/tema3/img15.svg')
               .col-xl-8
-                p.text-bold Grupo del cloro
+                p.text-bold Grupo del Cloro
                 p.text-bold 1s<sup>2</sup>  2s<sup>2</sup>   2p<sup>6</sup>    3s<sup>2</sup>   3p <sup>5</sup>
                 p.mb-0 El Cloro pertenece a un grupo de la letra “A”.
                 p.mb-0 El ultimo nivel es 3. 
@@ -290,13 +290,13 @@
                 figure.mb-3.d-flex.justify-content-center
                   img.w-auto(src='@/assets/curso/tema3/img15.svg')
               .col-xl-8
-                p.text-bold Grupo del cloro
-                p.text-bold 1s<sup>2</sup>  2s<sup>2</sup>   2p<sup>6</sup>    3s<sup>2</sup>   3p <sup>5</sup>
+                p.text-bold Valencia del Cloro
+                p.text-bold 1s  2s   2p    3s   3p 
                 p.mb-0 El Cloro pertenece a un grupo de la letra “A”.
                 p.mb-0 El ultimo nivel es 3. 
                 p.mb-0 El ultimo nivel tiene “s y p”, por lo que se suma los electrones: 2 + 5 = 7
-                p.mb-0.text-bold Por tanto, el cloro pertenece al Grupo 7A
-    
+                p.mb-0 Por tanto, el cloro pertenece al Grupo 7A
+                P.mb-0.text-bold El Cloro tiene una valencia de 7
     .bg_grad_03
       .bgr.px-5.pt-3.pb-4.mb-3(data-aos="fade-down-right")
         h3.mb-0  La tabla periódica
@@ -409,7 +409,7 @@
         img.w-auto(src='@/assets/curso/tema3/img21.svg')
     ModalA(:abrir-modal.sync="modal4")
       figure.d-flex.justify-content-center
-        img.w-auto(src='@/assets/curso/tema3/img21.svg')
+        img.w-auto(src='@/assets/curso/tema3/img22.svg')
     
     separador
     #t_3_2
@@ -439,7 +439,7 @@
       .col-lg-8        
         .row.align-items-center.bg8.p-5 
           .col-lg-8
-            h4 Enlace Químico
+            h4 Enlace iónico
             p El enlace iónico es la interacción de un metal con un no metal; en este se da una pérdida de electrones por parte del metal y una ganancia de estos por parte del no metal. Este tipo de enlaces se presenta entre las sales, por ejemplo: el cloruro de sodio de fórmula química NaCl, mejor conocido como sal de mesa común.
           .col-lg-4
             figure
@@ -453,7 +453,7 @@
         p Existen diferentes tipos de enlaces covalentes como se verá a continuación.
         .row
           .col-lg-12
-            a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+            a.anexo.mb-4.mb-lg-0(href="https://login.bdigital.sena.edu.co/login?url=https://ebookcentral.proquest.com/lib/senavirtualsp/reader.action?docID=3227909&ppg=9" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
@@ -610,7 +610,7 @@
             .text-center
               h4.txt-color2 Los ácidos oxácidos
               p.text-white.mb-0 Se forman cuando hay presencia de oxígeno en la molécula.
-      
+      h4.mb-3 Sales
       p.mb-5 Estas se obtienen cuando se hace reaccionar un ácido con una base; el resultado de esta reacción es una sal más agua. La sal está compuesta de un metal y un no metal.
 
       .row.mb-5
@@ -637,7 +637,7 @@
 
       .bg_grad_03
         .bgr.px-5.pt-3.pb-4.mb-3(data-aos="fade-down-right")
-          h3.mb-0 Nomenclatura de los Compuestos Inorgánicos
+          h3.mb-0 Nomenclatura de los Compuestos inorgánicos
 
       TabsC.color-acento-contenido.bgr_6.mb-5
         .py-3.py-md-4(titulo="Nomenclatura tradicional")
@@ -649,9 +649,9 @@
             .col-xl-7
               figure.d-flex.justify-content-center
                 img.w-auto(src='@/assets/curso/tema3/img27.svg')
-        .py-3.py-md-4(titulo="Nomenclatura stock")
+        .py-3.py-md-4(titulo="Nomenclatura <em>stock</em>")
           .row.justify-content-center.p-5
-            p.text-bold Nomenclatura stock
+            p.text-bold Nomenclatura <em>stock</em>
             .col-xl-5.mb-4.mb-xl-0
               p Se utiliza nombrando el grupo funcional, seguido del átomo que lo acompaña y entre paréntesis en números romanos, se coloca el estado de oxidación de este. Por ejemplo: Fe2O3 = Óxido de Hierro (III) representado así:
             .col-xl-7
@@ -669,7 +669,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p <b> Enlace web</b>. Consulte la biblioteca digitaL González, M. R. M., & Montagut, B. P. (2014). Química. 
+                  p Consulte la biblioteca digitaL González, M. R. M., & Montagut, B. P. (2014). Química. 
       
       separador
 
@@ -681,7 +681,7 @@
       .row.mb-5.justify-content-center
         .col-xl-4
           .tarjeta.bgr_3.h-100.p-3.p-xl-5.text-center
-            h3 QUIMICA ORGANICA
+            h3 QUIMICA ORGÁNICA
             p Único elemento capaz de formar compuestos en cadena con hidrógeno, oxígeno y otros 
             figure.mb-3.d-flex.justify-content-center
               img.w-auto(src='@/assets/curso/tema3/img29.svg')
@@ -743,7 +743,7 @@
     .bg_grad_03
       .bgr.px-5.pt-3.pb-4.mb-3(data-aos="fade-down-right")
         h3.mb-0 Oxigenados
-    
+    p Hace referencia a cadenas carbonadas que incluyen, al menos, un átomo de oxígeno en su estructura. Entre las funciones orgánicas oxigenadas se encuentran:
     TabsC.color-acento-contenido.bgr_6.mb-5
       .py-3.py-md-4(titulo="Alcoholes")
         .row.justify-content-center.p-5

@@ -28,7 +28,7 @@
         p.mb-5 Resulta necesario identificar atributos y cualidades de la materia en aras de lograr un mejor entendimiento de esta. Entre sus propiedades se encuentran: 
         .bg_grad_01
           .bgr.px-5.pt-3.pb-4.mb-3(data-aos="fade-down-right")
-            h3.mb-0 Propiedades físicas:  
+            h3.mb-0 Propiedades físicas  
           p Hacen referencia a aquellas características que pueden ser medidas y observadas sin alterar la muestra en su composición y naturaleza, estas, a su vez, pueden clasificarse en:
         P #[span.txt-color1 Propiedades extensivas:] son aquellas que dependen de la cantidad de materia en la muestra, tales como la masa, el volumen, la longitud, el peso, calor específico, entre otras.
       .col-lg-5  
@@ -109,46 +109,46 @@
                 img.w-auto.mb-3(src='@/assets/curso/tema2/img14.svg')
               .text-center
                 h4 Densidad
-                p Relación entre la masa y volumen que ocupa la materia. Se expresa matemáticamente como lo muestra la fórmula.}
+                p Relación entre la masa y volumen que ocupa la materia. Se expresa matemáticamente como lo muestra la fórmula.
             .tarjeta.bgr_2.p-4.h-100
               figure.d-flex.justify-content-center
                 img.w-auto.mb-3.mt-5(src='@/assets/curso/tema2/img15.svg')
               .text-center
-                h4 Densidad
-                p Relación entre la masa y volumen que ocupa la materia. Se expresa matemáticamente como lo muestra la fórmula.
+                h4 Punto de ebullición
+                p Temperatura en la que se pasa de líquido a gaseoso.
             .tarjeta.bgr_2.p-4.h-100
               figure.d-flex.justify-content-center
                 img.w-auto.mb-3(src='@/assets/curso/tema2/img16.svg')
               .text-center
-                h4 Densidad
-                p Relación entre la masa y volumen que ocupa la materia. Se expresa matemáticamente como lo muestra la fórmula.
+                h4 Punto de fusión
+                p Temperatura en la que se pasa de sólido a líquido.
             .tarjeta.bgr_2.p-4.h-100
               figure.d-flex.justify-content-center
                 img.w-auto.mb-3.mt-5(src='@/assets/curso/tema2/img17.svg')
               .text-center
-                h4 Densidad
-                p Relación entre la masa y volumen que ocupa la materia. Se expresa matemáticamente como lo muestra la fórmula.
+                h4 Maleabilidad
+                p Propiedad de la materia que consiste en dejarse trabajar en láminas.
             .tarjeta.bgr_2.p-4.h-100
               figure.d-flex.justify-content-center
                 img.w-auto.mb-3(src='@/assets/curso/tema2/img18.svg')
               .text-center
-                h4 Densidad
-                p Relación entre la masa y volumen que ocupa la materia. Se expresa matemáticamente como lo muestra la fórmula.
+                h4 Ductilidad
+                p Propiedad de la materia que consiste en dejarse trabajar en hilos.
             .tarjeta.bgr_2.p-4.h-100
               figure.d-flex.justify-content-center
                 img.w-auto.mb-3.mt-5(src='@/assets/curso/tema2/img19.svg')
               .text-center
-                h4 Densidad
-                p Relación entre la masa y volumen que ocupa la materia. Se expresa matemáticamente como lo muestra la fórmula.
+                h4 Reactividad
+                p Propiedad de una sustancia para sufrir una reacción química, ya sea con ella misma o con otras sustancias o reactivos, convirtiéndose en uno o varios productos y liberando energía.
             .tarjeta.bgr_2.p-4.h-100
               figure.d-flex.justify-content-center
                 img.w-auto.mb-3(src='@/assets/curso/tema2/img20.svg')
               .text-center
-                h4 Densidad
-                p Relación entre la masa y volumen que ocupa la materia. Se expresa matemáticamente como lo muestra la fórmula.
+                h4 Electronegatividad
+                p Capacidad para formar enlaces químicos; se considera una propiedad periódica de los elementos químicos.
     .bg_grad_03
       .bgr.px-5.pt-3.pb-4.mb-3(data-aos="fade-down-right")
-        h3.mb-0 Propiedades químicas:
+        h3.mb-0 Propiedades químicas
     
     p Hacen referencia a la condición que tiene cierta sustancia de transformarse en otra mediante alguna reacción química, es decir existe un cambio en cuanto a su composición. Calor de combustión, reactividad, oxidación, reducción, hidrólisis.
     p.mb-5 Es común encontrar la materia en diferentes estados de acuerdo con su arreglo molecular y la energía cinética de estas. Clásicamente, se definen los estados: sólido, líquido y gaseoso como es de conocimiento general. La materia es dinámica y por ello es susceptible a experimentar cambios de estado en la medida en la que absorben o ceden calor al medio o por efectos de la presión. De acuerdo con esto, los cambios de estado se clasifican en:
@@ -157,7 +157,7 @@
       .col-xl-5.p-5.bgr_3.d-flex.align-items-center
         div
           p.text-bold Progresivos
-          p.mb-0 ocurren cuando el sistema absorbe energía, en forma de calor, del medio. Ejemplo, la vaporización, la fusión y la sublimación.
+          p.mb-0 Ocurren cuando el sistema absorbe energía, en forma de calor, del medio. Ejemplo, la vaporización, la fusión y la sublimación.
       .col-xl-5.p-5.bgr_4.d-flex.align-items-center
         div
           p.text-bold Regresivos
@@ -188,14 +188,14 @@
     
       .bg_grad_03
         .bgr.px-5.pt-3.pb-4.mb-3(data-aos="fade-down-right")
-          h3.mb-0  Etapas del Método Científico 
+          h3.mb-0 Sustancias puras y mezclas
       
       p.mb-5 Sustancia es aquella parte de la materia que, independientemente de su cantidad y concentración, no cambia sus propiedades intensivas; es decir, su sabor, densidad, calor específico y viscosidad, etc. Además, este concepto se usa para hacer referencia a la clase de materia que constituye un cuerpo.
       h3.text-center La materia
 
       AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bgr_5")
-        .row(titulo="Mezcla").p-4.text-white
-          p Se encuentran constituidas por átomos y/o moléculas de distintas clases
+        .row(titulo="Mezclas").p-4.text-white
+          p Se encuentran constituidas por átomos y/o moléculas de distintas clases.
           .col-md-4
             figure
               img(src='@/assets/curso/tema2/img23.svg')
@@ -208,7 +208,7 @@
         .row(titulo="Sustancias puras").p-4.text-white
           .col-md-8.mb-4.mb-md-0.d-flex.align-items-center
             div
-              p Son aquellas que están conformadas por átomos o moléculas de la misma especie
+              p Son aquellas que están conformadas por átomos o moléculas de la misma especie.
           .col-md-4
             figure
               img(src='@/assets/curso/tema2/img24.svg')
@@ -219,7 +219,7 @@
     
     p.mb-5 Las mezclas se presentan de muchas formas. La mayoría de ellas se pueden separar en sus componentes originales. El tipo de método de separación depende del tipo de mezcla.
 
-    TabsC.color-acento-contenido.bgr_6
+    TabsC.color-acento-contenido.bgr_6.mb-5
       .py-3.py-md-4(titulo="Tamización")
         .row.justify-content-center
           .col-xl-2
@@ -260,12 +260,19 @@
         p.mb-5 Es útil para la separación de líquidos que son solubles entre sí. El método consiste en ponerlos en ebullición tomando los vapores por un tubo para luego pasarlo al estado líquido nuevamente por diferencia en los puntos de ebullición y por condensación.
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema2/img30.svg')
-      .py-3.p-5(titulo="La Cromatografía")
+      .py-3.p-5(titulo="La cromatografía")
         p.text-bold La Cromatografía
         p.mb-5 Permite la separación de gases o líquidos de una mezcla por adsorción selectiva, produciendo manchas diferentemente coloreadas en el medio adsorbente; está basado en la diferente velocidad con la que se mueve cada fluido a través de una sustancia porosa como es el papel de filtro.  
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema2/img31.svg')
-    
+    .bg_grad_03
+      .bgr.px-5.pt-3.pb-4.mb-3(data-aos="fade-down-right")
+        h3.mb-0 El arcoíris 
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      figure.mb-5
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/BVnyvEyhdzc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+         
     Separador
 
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
@@ -286,8 +293,9 @@
         p.mb-0 En concreto, la medición consiste en determinar, por comparación, la magnitud de un atributo respecto a un patrón o estándar. Generalmente, estos atributos corresponden a un tipo de variable en el sistema objeto de medición; dichas variables pueden ser de dos tipos: cualitativas, cuya estimación indica una categoría o característica sin criterio de orden o jerarquía y cuantitativas, cuando determinado atributo puede ser descrito mediante cifras numéricas y alberga un sentido lógico-matemático. Existen tres elementos básicos a considerar al momento de efectuar una medición: 
     
     .bg_grad_03
-      .bgr.px-5.pt-3.pb-4.mb-5(data-aos="fade-down-right")
-        h3.mb-0  Separación de mezclas
+      .bgr.px-5.pt-3.pb-4(data-aos="fade-down-right")
+        h3.mb-0 Escala de medida
+    p.mb-5 Hace referencia al conjunto de potenciales valores que una variable puede adquirir. Existen cuatro tipos de escalas que se ajustan o dependen del tipo de variable. En el caso de variables cualitativas, se encuentran las siguientes escalas categóricas:
     
     .bg_grad_05
       .row.mb-5
@@ -352,11 +360,11 @@
             tbody.text-center
               tr.bgr_9
                 td Longitud
-                td metro
+                td Metro
                 td m
               tr.bgr_10
                 td Masa
-                td kilogramo
+                td Kilogramo
                 td kg
               tr.bgr_9
                 td Temperatura
@@ -441,7 +449,7 @@
         .bgr.px-5.pt-3.pb-4.mb-3(data-aos="fade-down-right")
           h3.mb-0 Instrumento de medida 
       
-      p herramienta que permite estimar el valor de cierta magnitud física. Todo instrumento debe estar calibrado en relación con el patrón o estándar definido garantizando confiabilidad, precisión y exactitud en la medida.
+      p Herramienta que permite estimar el valor de cierta magnitud física. Todo instrumento debe estar calibrado en relación con el patrón o estándar definido garantizando confiabilidad, precisión y exactitud en la medida.
       p Dado que existe una gran cantidad de instrumentos de medida, así como la necesidad de garantizar la precisión y exactitud de estos, especialmente en el sector industrial y en el control óptimo de procesos, se estableció una disciplina científica especializada en dicho ejercicio y labor: la metrología.
 
       

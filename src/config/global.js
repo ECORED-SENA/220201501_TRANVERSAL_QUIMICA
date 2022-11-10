@@ -100,17 +100,11 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Ciencia: fundamentos, conceptualización básica',
+        titulo: 'Transformaciones químicas',
         desarrolloContenidos: true,
       },
     ],
     subMenu: [
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -171,7 +165,7 @@ export default {
       referencia:
         'University of Colorado Boulder. (8 septiembre de 2020). Estados de la materia.',
       tipo: 'Video',
-      link: 'https://phet.colorado.edu/es/simula tion/states-of-matter',
+      link: 'https://phet.colorado.edu/es/simulation/states-of-matter',
     },
     {
       tema: 'Ciencia: Fundamentos, conceptualización básica',
@@ -405,8 +399,8 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Yuli Marcela Gómez Tarazona',
+        cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

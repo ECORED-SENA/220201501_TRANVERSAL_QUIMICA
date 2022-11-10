@@ -80,7 +80,7 @@
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta.color-acento-contenido1.h-100
           .p-5
-            p.text-center <b>Ejemplo:</b> Balancear la siguiente ecuación:
+            p.text-center <b>Ejemplo:</b> balancear la siguiente ecuación:
             img.img-t.mb-4(src='@/assets/curso/tema4/img14.svg', alt='Texto que describa la imagen').mx-auto
             p Se hace una inspección previa y se comprueba que se requiere ajustar la ecuación.
             .row 

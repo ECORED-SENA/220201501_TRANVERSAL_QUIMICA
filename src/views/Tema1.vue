@@ -29,7 +29,7 @@
               .col-md-9.mb-4.mb-md-0.d-flex.justify-content-center.align-items-center 
                 div
                   h4.txt-color2 Isaac Newton
-                  p.text-white Este físico, teólogo, matemático e inventor inglés nació en 1642. Se hizo célebre por postular su ley de la gravitación universal en 1687. Entre sus aportes a la ciencia se destacan el desarrollo del calculo infinitesimal, el descubrimiento del espectro de color, sus observaciones sobre la naturaleza de la luz, su incursión en mecánica de fluidos, así como su ley de la viscosidad, entre otros. Es considerado uno de los genios mas grandes de la historia. Ocupó el cargo de presidente de la Real Sociedad de Londres hasta su muerte, ocurrida en 1727.
+                  p.text-white Este físico, teólogo, matemático e inventor inglés nació en 1642. Se hizo célebre por postular su ley de la gravitación universal en 1687. Entre sus aportes a la ciencia se destacan el desarrollo del calculo infinitesimal, el descubrimiento del espectro de color, sus observaciones sobre la naturaleza de la luz, su incursión en mecánica de fluidos, así como su ley de la viscosidad, entre otros. Es considerado uno de los genios más grandes de la historia. Ocupó el cargo de presidente de la Real Sociedad de Londres hasta su muerte, ocurrida en 1727.
             .row(titulo="Leonardo Da Vinci")
               .col-md-3.mb-4.mb-md-0.d-flex.justify-content-center.align-items-center
                   figure
@@ -37,7 +37,7 @@
               .col-md-9.mb-4.mb-md-0.d-flex.justify-content-center.align-items-center
                 div
                   h4.txt-color2 Leonardo Da Vinci
-                  p.text-white Polímata, pintor, inventor, anatomista, arquitecto, filósofo, científico e ingeniero florentino nacido en 1452. Es considerado como una de las mentes mas brillantes de la historia. Un hombre curioso y con una sed de conocimiento infinita. Siempre se interesó por comprender como funcionaba el complejo mundo natural y sus bosquejos, hoy considerados artísticos, son muestra de ello.
+                  p.text-white Polímata, pintor, inventor, anatomista, arquitecto, filósofo, científico e ingeniero florentino nacido en 1452. Es considerado como una de las mentes más brillantes de la historia. Un hombre curioso y con una sed de conocimiento infinita. Siempre se interesó por comprender cómo funcionaba el complejo mundo natural y sus bosquejos, hoy considerados artísticos, son muestra de ello.
             .row(titulo="John Dalton")
               .mb-4.mb-md-0.d-flex.justify-content-center.align-items-center
               .col-md-3.mb-4.mb-md-0.d-flex.justify-content-center.align-items-center
@@ -54,7 +54,7 @@
               .col-md-9.mb-4.mb-md-0.d-flex.justify-content-center.align-items-center
                 div
                   h4.txt-color2  Dmitri Ivánovich Mendeléyev
-                  p.text-white Químico ruso nacido 1834. Entre sus logros se destacan la postulación de la ley periódica de los elementos, a partir de la cual fue posible la construcción de la tabla periódica moderna, una herramienta predictiva que permitió	una	mayor comprensión de los elementos químicos y su naturaleza fisicoquímica, pavimentando la consecución de grandes logros y avances notables en la química del siglo XX.
+                  p.text-white Químico ruso nacido en 1834. Entre sus logros se destacan la postulación de la ley periódica de los elementos, a partir de la cual fue posible la construcción de la tabla periódica moderna, una herramienta predictiva que permitió	una	mayor comprensión de los elementos químicos y su naturaleza fisicoquímica, pavimentando la consecución de grandes logros y avances notables en la química del siglo XX.
             .row(titulo="Marie Curie")
               .col-md-3.mb-4.mb-md-0.d-flex.justify-content-center.align-items-center
                   figure
@@ -78,7 +78,7 @@
               .col-md-9.mb-4.mb-md-0.d-flex.justify-content-center.align-items-center
                 div
                   h4.txt-color2 Nikola Tesla
-                  p.text-white Inventor	e	ingeniero serbocroata, nacionalizado estadounidense. Dedicó su vida al entendimiento de la electricidad y sus misterios. Esconocido	por	sus	brillantes aportes	y	contribuciones	al electromagnetismo,	al desarrollo del sistema de corriente       alterna       y       la transferencia       de       energía eléctrica e información de forma inalámbrica. Mas allá de sus particularidades, el mundo, tal y como se le conoce, se debe en gran parte a él y su brillante mente científica.
+                  p.text-white Inventor	e	ingeniero serbocroata, nacionalizado estadounidense. Dedicó su vida al entendimiento de la electricidad y sus misterios. Esconocido	por	sus	brillantes aportes	y	contribuciones	al electromagnetismo,	al desarrollo del sistema de corriente       alterna       y       la transferencia       de       energía eléctrica e información de forma inalámbrica. Más allá de sus particularidades, el mundo, tal y como se le conoce, se debe en gran parte a él y su brillante mente científica.
             .row(titulo="Alexander Fleming")
               .col-md-3.mb-4.mb-md-0.d-flex.justify-content-center.align-items-center
                   figure
@@ -86,7 +86,7 @@
               .col-md-9.mb-4.mb-md-0.d-flex.justify-content-center.align-items-center
                 div
                   h4.txt-color2 Alexander Fleming
-                  p.text-white Médico y científico escocés célebre por su descubrimiento de la penicilina, un antibiótico de origen micótico, por casualidad luego de que algunas de sus cajas Petri con colonias bacterianas se contaminasen accidentalmente con esporas de <em>Penicillium notatum</em>, algo que mató e inhibió el crecimiento de éstas. Fue galardonado en 1945 con el premio Nobel en fisiología junto a los químicos <em>Ernst Boris Chain y Howard Walter Florey</em> por este hecho.
+                  p.text-white Médico y científico escocés célebre por su descubrimiento de la penicilina, un antibiótico de origen micótico, por casualidad luego de que algunas de sus cajas Petri con colonias bacterianas se contaminaran accidentalmente con esporas de <em>Penicillium notatum</em>, algo que mató e inhibió el crecimiento de éstas. Fue galardonado en 1945 con el premio Nobel en fisiología junto a los químicos <em>Ernst Boris Chain y Howard Walter Florey</em> por este hecho.
     .row.align-items-center.mb-5
       .col-lg-4
         p La ciencia constituye un elemento fundamental en el desarrollo de cualquier sociedad; es a través de la generación e implementación de nuevo conocimiento cómo se construye bienestar social, calidad de vida y dignidad como individuo; además, desde los alimentos procesados que se consumen diariamente hasta la invención de una nueva vacuna o biológico para erradicar alguna enfermedad, son el resultado de años de trabajo, investigación y esfuerzo científico.
@@ -112,8 +112,8 @@
               img(src='@/assets/curso/tema1/img14.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.bg1
               .p-5
-                h4 #[span.txt-color2 Etapas del Método Científico .]  
-                p.mt-4.text-white El conocimiento se valida y se reafirma en la medida que la ciencia se hace cada vez más rigurosa en sus técnicas experimentales, metodologías y procedimientos; ya lo decía René Descartes en su Discurso del Método: “Sólo se puede decir que existe aquello que puede ser probado”, un sentir que habían compartido intelectuales, académicos y filósofos naturales a lo largo de las épocas. El confluir de ideas racionalistas e inductivas junto a la necesidad de purgar el quehacer científico de subjetivismos y sesgos cognitivos, devino en lo que se conoce como El Método Científico.
+                h4 #[span.txt-color2 Etapas del Método Científico]  
+                p.mt-4.text-white El conocimiento se valida y se reafirma en la medida que la ciencia se hace cada vez más rigurosa en sus técnicas experimentales, metodologías y procedimientos; ya lo decía René Descartes en su Discurso del Método: “Sólo se puede decir que existe aquello que puede ser probado”, un sentir que habían compartido intelectuales, académicos y filósofos naturales a lo largo de las épocas. El confluir de ideas racionalistas e inductivas junto a la necesidad de purgar el quehacer científico de subjetivismos y sesgos cognitivos, devino en lo que se conoce como el método científico.
                 p.text-white El método científico consiste en una metodología o serie de tácticas implementadas para develar y construir conocimiento de manera válida (Holton et al, 1988), y aunque éste suele asociarse de manera exclusiva a las ciencias naturales, en realidad, todas las demás disciplinas emplean este método hipotético-deductivo en su ejercicio científico, por supuesto ajustado a sus necesidades, contexto y fin último. Esta estrategia, a grandes rasgos, consta de las siguientes etapas:    
       .row.justify-content-center
         .col-lg-10
@@ -121,7 +121,7 @@
             div
               .row.align-items-center.justify-content-end
                 .col-lg.mb-4
-                  h4 Observación:
+                  h4 Observación
                   p Consiste en percibir y comprender a través de los sentidos un fenómeno. El resultado de un ejercicio de observación minucioso es formular una pregunta y, de esta manera, plantear un problema.
                 .col-5.col-lg-auto
                   figure
@@ -132,12 +132,12 @@
                   figure
                     img(src='@/assets/curso/tema1/img16.svg')
                 .col-lg
-                  h4 Documentación:
+                  h4 Documentación
                   p O revisión del “estado del arte”, hace referencia a la indagación documental que se realiza de manera previa con el objeto de profundizar en materia, lo que permite verificar si determinado problema ha sido abordado y resuelto. Cabe aclarar que dicha revisión de la literatura debe provenir de fuentes confiables y fidedignas.
             div
               .row.align-items-center.justify-content-end
                 .col-lg.mb-4
-                  h4 Formulación de hipótesis: 
+                  h4 Formulación de hipótesis 
                   p Una vez culminada la etapa de revisión bibliográfica, la hipótesis surge como elemento deductivo y lógico como posible respuesta al problema planteado. Las etapas posteriores consistirán en comprobar, ya sea reafirmando o refutando, la hipótesis planteada en esta fase.
                 .col-5.col-lg-auto
                   figure
@@ -148,12 +148,12 @@
                   figure
                     img(src='@/assets/curso/tema1/img18.svg')
                 .col-lg
-                  h4 Experimentación: 
+                  h4 Experimentación 
                   p A continuación, prosigue la verificación experimental de dicha hipótesis, la cual consiste en establecer un diseño de experimentos que permita manipular, bajo condiciones controladas, una serie de factores y variables, logrando recopilar datos que permitirán estudiar el efecto de cada uno de estos en el fenómeno objeto de estudio. Resulta vital garantizar que los datos y observaciones obtenidas son reproducibles y no algo producto del error y el azar. Cabe recordar que los datos que se obtengan deben provenir de una muestra representativa.
             div
               .row.align-items-center.justify-content-end
                 .col-lg.mb-4
-                  h4 Análisis de resultados:  
+                  h4 Análisis de resultados  
                   p Comprende el procesamiento, interpretación y análisis objetivo y racional de los datos e información recolectada; de manera que permita confrontar, deducir e inferir si la evidencia obtenida en la práctica sustenta, confirma o contrasta con la hipótesis planteada inicialmente.  
                 .col-5.col-lg-auto
                   figure
@@ -164,7 +164,7 @@
                   figure
                     img(src='@/assets/curso/tema1/img20.svg')
                 .col-lg
-                  h4 Conclusión: 
+                  h4 Conclusión 
                   p Una vez se cuenta con todos los elementos, se procede a determinar si la hipótesis planteada inicialmente fue válida o no.
            
 </template>
