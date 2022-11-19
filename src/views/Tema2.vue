@@ -7,15 +7,15 @@
         span 2
       h1 La materia y sus cambios
     .row.align-items-center.mb-5
-      .col-lg-5
+      .col-lg-5.mb-3.mb-lg-0
         p El origen del universo y de todo lo observado ha sido objeto de inquietud y debate por siglos, dado que para el ser humano siempre ha existido la necesidad de explicar todo cuanto ocurre a su alrededor, lo anterior cobra sentido considerando que, en su mayoría, las antiguas civilizaciones humanas disponían de elaboradas y fabulosas teorías cosmogónicas aspirando a explicar el origen de, absolutamente, todas las cosas. Sin embargo, antes de querer explicar el génesis de ese “todo” resulta conveniente observar, interpretar, estudiar y comprender el vasto universo que se revela.
-      .col-lg-3  
-        figure
-          img(src='@/assets/curso/tema2/img1.svg')
+      .col-lg-3.mb-3.mb-lg-0
+        figure.d-flex.justify-content-center
+          img.w-auto(src='@/assets/curso/tema2/img1.svg')
       .col-lg-4
         p El universo se encuentra formado, de acuerdo con Ahmed (2020), por cuatro tipos de entidades: materia, energía y sus contrapartes, estas últimas hasta la fecha incomprensibles e imposibles de detectar y medir: materia y energía oscura; debido al alcance de este curso solo se abordará y se profundizará en el primero de estos elementos.
     .row.align-items-center.mb-5.bg4.p-5
-      .col-lg-5  
+      .col-lg-5.mb-3.mb-lg-0
         figure
           img(src='@/assets/curso/tema2/img2.svg')
       .col-lg-7
@@ -36,71 +36,71 @@
           img(src='@/assets/curso/tema2/img3.png')
     
     .row.mb-3
-      .col-lg-6.col-xl-3.mb-3.mb-xl-0
+      .col-md-6.col-xl-3.mb-3.mb-xl-0
         .bgr_1.p-4.h-100
           figure.d-flex.justify-content-center
             img.w-auto.mb-3(src='@/assets/curso/tema2/img5.svg')
           .text-center
             h4 Masa
             p Es la cantidad de materia contenida en un volumen determinado; la masa de un cuerpo es la misma en cualquier parte de la Tierra o en otro planeta y se expresa en gramos o kilogramos.
-      .col-lg-6.col-xl-3.mb-3.mb-xl-0
+      .col-md-6.col-xl-3.mb-3.mb-xl-0
         .bgr_1.p-4.h-100
           figure.d-flex.justify-content-center
-            img.w-auto.mb-3.mt-5(src='@/assets/curso/tema2/img6.svg')
+            img.w-auto.mb-3(src='@/assets/curso/tema2/img6.svg')
           .text-center
             h4 Volumen 
             p Un cuerpo ocupa un lugar en el espacio y se expresa en cm 3 o en ml.
-      .col-lg-6.col-xl-3.mb-3.mb-lg-0
+      .col-md-6.col-xl-3.mb-3.mb-md-0
         .bgr_1.p-4.h-100
           figure.d-flex.justify-content-center
             img.w-auto.mb-3(src='@/assets/curso/tema2/img7.svg')
           .text-center
             h4 Peso
             p Es la acción de la fuerza de gravedad de la Tierra sobre los cuerpos. En los lugares donde la fuerza de gravedad es menor, por ejemplo, en una montaña o en la Luna, el peso de los cuerpos disminuye.
-      .col-lg-6.col-xl-3
+      .col-md-6.col-xl-3
         .bgr_1.p-4.h-100
           figure.d-flex.justify-content-center
-            img.w-auto.mb-3.mt-5(src='@/assets/curso/tema2/img8.svg')
+            img.w-auto.mb-3(src='@/assets/curso/tema2/img8.svg')
           .text-center
             h4 Divisibilidad
             p Es la propiedad que tiene cualquier cuerpo de poder dividirse en pedazos más pequeños, hasta llegar a las moléculas y los átomos.
 
     .row.mb-5
-      .col-lg-6.col-xl-3.mb-3.mb-xl-0
+      .col-md-6.col-xl-3.mb-3.mb-xl-0
         .bgr_1.p-4.h-100
           figure.d-flex.justify-content-center
             img.w-auto.mb-3(src='@/assets/curso/tema2/img9.svg')
           .text-center
             h4 Porosidad
             p Como los cuerpos están formados por partículas diminutas, éstas dejan entre sí espacios vacíos llamados poros.
-      .col-lg-6.col-xl-3.mb-3.mb-xl-0
+      .col-md-6.col-xl-3.mb-3.mb-xl-0
         .bgr_1.p-4.h-100
           figure.d-flex.justify-content-center
-            img.w-auto.mb-3.mt-5(src='@/assets/curso/tema2/img10.svg')
+            img.w-auto.mb-3(src='@/assets/curso/tema2/img10.svg')
           .text-center
             h4 La inercia 
             p Es una propiedad por la que todos los cuerpos tienden a mantenerse en su estado de reposo o movimiento.
-      .col-lg-6.col-xl-3.mb-3.mb-lg-0
+      .col-md-6.col-xl-3.mb-3.mb-md-0
         .bgr_1.p-4.h-100
           figure.d-flex.justify-content-center
             img.w-auto.mb-3(src='@/assets/curso/tema2/img11.svg')
           .text-center
             h4 Movilidad
             p Es la capacidad que tiene un cuerpo de cambiar su posición como consecuencia de su interacción con otros.
-      .col-lg-6.col-xl-3
+      .col-md-6.col-xl-3
         .bgr_1.p-4.h-100
           figure.d-flex.justify-content-center
-            img.w-auto.mb-3.mt-5(src='@/assets/curso/tema2/img12.svg')
+            img.w-auto.mb-3(src='@/assets/curso/tema2/img12.svg')
           .text-center
             h4 Elasticidad
             p Propiedad que tienen los cuerpos de cambiar su forma cuando se les aplica una fuerza adecuada y de recobrar la forma original cuando se suspende la acción de la fuerza.
     
     .bg_grad_02
       .row.mb-5.p-3
-        .col-xl-4
+        .col-xl-4.mb-3.mb-lg-0
           span.txt-color2 Propiedades intensivas:  
           span.text-white estas, por el contrario, resultan ser independientes de la cantidad de muestra como, por ejemplo: La densidad, el punto de ebullición, el punto de fusión, la dureza, color, sabor, conductividad eléctrica, entre otras.
-          figure.d-flex.justify-content-center
+          figure.d-none.d-lg-flex.justify-content-center
             img.w-auto.mt-3(src='@/assets/curso/tema2/img13.png')
         .col-xl-8
           SlyderF(columnas="col-lg-6 col-xl-6")
@@ -112,7 +112,7 @@
                 p Relación entre la masa y volumen que ocupa la materia. Se expresa matemáticamente como lo muestra la fórmula.
             .tarjeta.bgr_2.p-4.h-100
               figure.d-flex.justify-content-center
-                img.w-auto.mb-3.mt-5(src='@/assets/curso/tema2/img15.svg')
+                img.w-auto.mb-3(src='@/assets/curso/tema2/img15.svg')
               .text-center
                 h4 Punto de ebullición
                 p Temperatura en la que se pasa de líquido a gaseoso.
@@ -124,7 +124,7 @@
                 p Temperatura en la que se pasa de sólido a líquido.
             .tarjeta.bgr_2.p-4.h-100
               figure.d-flex.justify-content-center
-                img.w-auto.mb-3.mt-5(src='@/assets/curso/tema2/img17.svg')
+                img.w-auto.mb-3(src='@/assets/curso/tema2/img17.svg')
               .text-center
                 h4 Maleabilidad
                 p Propiedad de la materia que consiste en dejarse trabajar en láminas.
@@ -136,7 +136,7 @@
                 p Propiedad de la materia que consiste en dejarse trabajar en hilos.
             .tarjeta.bgr_2.p-4.h-100
               figure.d-flex.justify-content-center
-                img.w-auto.mb-3.mt-5(src='@/assets/curso/tema2/img19.svg')
+                img.w-auto.mb-3(src='@/assets/curso/tema2/img19.svg')
               .text-center
                 h4 Reactividad
                 p Propiedad de una sustancia para sufrir una reacción química, ya sea con ella misma o con otras sustancias o reactivos, convirtiéndose en uno o varios productos y liberando energía.
@@ -186,7 +186,7 @@
             figcaption Nota. Tomada de TOMi.Digital (2020)
 
     
-      .bg_grad_03
+      .bg_grad_16
         .bgr.px-5.pt-3.pb-4.mb-3(data-aos="fade-down-right")
           h3.mb-0 Sustancias puras y mezclas
       
@@ -220,47 +220,47 @@
     p.mb-5 Las mezclas se presentan de muchas formas. La mayoría de ellas se pueden separar en sus componentes originales. El tipo de método de separación depende del tipo de mezcla.
 
     TabsC.color-acento-contenido.bgr_6.mb-5
-      .py-3.py-md-4(titulo="Tamización")
-        .row.justify-content-center
+      .py-3.py-md-4.p-3.p-lg-0(titulo="Tamización")
+        .row.d-flex.align-items-center.justify-content-center
           .col-xl-2
             figure.d-flex.justify-content-center
               img.w-auto(src='@/assets/curso/tema2/img25.svg')
           .col-xl-8.mb-4.mb-xl-0
             p.text-bold Tamización
             p Se usa para la separación de mezclas sólidas, compuestas con granos de diversos tamaños. Lo que se hace es hacer pasar a la mezcla por varios tamices (artefacto con agujeros de pequeño tamaño).
-      .py-3.py-md-4(titulo="Filtración")
-        .row.justify-content-center
+      .py-3.py-md-4.p-3.p-lg-0(titulo="Filtración")
+        .row.d-flex.align-items-center.justify-content-center
           .col-xl-2
             figure.d-flex.justify-content-center
               img.w-auto(src='@/assets/curso/tema2/img26.svg')
           .col-xl-8.mb-4.mb-xl-0
             p.text-bold Filtración
             p Permite la separación de las mezclas que están compuestas por líquidos y sólidos insolubles; es decir, que los sólidos no se disuelven en el líquido.  Por ejemplo: el azúcar se disuelve con el agua, pero si echamos arena de río esta no se disuelve, es decir no es soluble.  Para separar esta mezcla, se utiliza un embudo con un papel de filtro en su interior, se hace pasar a la mezcla por ellos.
-      .py-3.p-5(titulo="Separación magnética")
+      .py-3.p-5.p-3.p-lg-0(titulo="Separación magnética")
         p.text-bold Separación magnética
         p.mb-5 Esta técnica, solo sirve para separar sustancias con propiedades magnéticas como los metales de aquellas que no las poseen. Para esto, se utilizan imanes que atraen a las sustancias magnéticas y así se logra separarlas de las que no lo son.
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema2/img27.svg')
             
-      .py-3.py-md-4(titulo="Decantación")
-        .row.justify-content-center
+      .py-3.py-md-4.p-3.p-lg-0(titulo="Decantación")
+        .row.d-flex.align-items-center.justify-content-center
           .col-xl-2
             figure.d-flex.justify-content-center
               img.w-auto(src='@/assets/curso/tema2/img28.svg')
           .col-xl-8.mb-4.mb-xl-0
             p.text-bold Decantación
             p Para decantar una mezcla, se deja reposar, sólo tiene éxito al tener diferencia en densidades y no ser solubles entre sí los integrantes de la misma.
-      .py-3.p-5(titulo="Cristalización y precipitación")
+      .py-3.p-5.p-3.p-lg-0(titulo="Cristalización y precipitación")
         p.text-bold Cristalización y precipitación
         p.mb-5 Se usa al tener una mezcla entre un sólido disuelto en un líquido, con ayuda de calor se facilita la evaporación del solvente permitiendo la formación de cristales de soluto. 
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema2/img29.svg')
-      .py-3.p-5(titulo="Destilación")
+      .py-3.p-5.p-3.p-lg-0(titulo="Destilación")
         p.text-bold Destilación
         p.mb-5 Es útil para la separación de líquidos que son solubles entre sí. El método consiste en ponerlos en ebullición tomando los vapores por un tubo para luego pasarlo al estado líquido nuevamente por diferencia en los puntos de ebullición y por condensación.
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema2/img30.svg')
-      .py-3.p-5(titulo="La cromatografía")
+      .py-3.p-5.p-3.p-lg-0(titulo="La cromatografía")
         p.text-bold La Cromatografía
         p.mb-5 Permite la separación de gases o líquidos de una mezcla por adsorción selectiva, produciendo manchas diferentemente coloreadas en el medio adsorbente; está basado en la diferente velocidad con la que se mueve cada fluido a través de una sustancia porosa como es el papel de filtro.  
         figure.d-flex.justify-content-center
@@ -268,8 +268,9 @@
     .bg_grad_03
       .bgr.px-5.pt-3.pb-4.mb-3(data-aos="fade-down-right")
         h3.mb-0 El arcoíris 
-    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
-      figure.mb-5
+
+    .row
+      figure
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/BVnyvEyhdzc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
          
@@ -282,11 +283,11 @@
       .col-xl-7
         p La sociedad humana, tal y como se le conoce, difícilmente existiría si no hubiese sido por la invención de patrones y unidades de medida. Así, las mediciones se encuentran presentes y han permeado cada aspecto de la vida cotidiana; un simple reloj que registra el transcurrir inexorable del tiempo, cada dispositivo electrónico básico cuya existencia se da por sentado, cada uno de los medios de transporte que hacen posible el trajín de la rutina diaria; sin dejar de lado instrumentos como el termómetro, que registra un alza en la temperatura corporal indicando la existencia de fiebre y, por tanto, una posible infección; todo lo anterior corresponde a casos puntuales de una larga lista de ejemplos posibles.
       .col-xl-5
-        figure.d-flex.justify-content-center
+        figure.d-none.d-lg-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema2/img32.svg')
     
     .row.mb-5.bg4.p-4
-      .col-xl-5
+      .col-xl-5.mb-3.mb-lg-0
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema2/img33.png')
       .col-xl-7.d-flex.align-items-center
@@ -300,16 +301,16 @@
     .bg_grad_05
       .row.mb-5
         .col-xl-4
-          figure.d-flex.justify-content-center
+          figure.d-none.d-lg-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema2/img34.svg')
-        .col-xl-4
+        .col-md-6.col-md-6.col-xl-4.mb-3.mb-lg-0
           .bgr_1.p-4.h-100
             figure.d-flex.justify-content-center
               img.w-auto.mb-3(src='@/assets/curso/tema2/img35.svg')
             .text-center
               h4 Nominal
               p Las variables se distinguen por categorías o etiquetas sin establecer criterios de jerarquía o importancia. Por ejemplo, el género de cada individuo, su estado civil, ciudad de residencia, grupo sanguíneo, entre otras.
-        .col-xl-4
+        .col-md-6.col-md-6.col-xl-4
           .bgr_1.p-4.h-100
             figure.d-flex.justify-content-center
               img.w-auto.mb-3(src='@/assets/curso/tema2/img36.svg')
@@ -319,14 +320,14 @@
 
       p.mb-5 Si se trata de variables cuantitativas, es posible establecer las escalas numéricas que se relacionan a continuación:
       .row.mb-5
-        .col-xl-4
+        .col-md-6.col-xl-4.mb-3.mb-lg-0
           .bgr_7.p-4.h-100
             figure.d-flex.justify-content-center
               img.w-auto.mb-3(src='@/assets/curso/tema2/img37.svg')
             .text-center
               h4.txt-color2 Intervalo
               p.text-white La variable puede tomar un valor dentro de un rango específico de valores. La escala de medida presenta un valor “cero” por convención sin que indique la ausencia de dicho atributo. Entre los ejemplos cabe destacar la escala Celsius de temperatura, su valor de cero, punto de congelación del agua, no indica ausencia de energía cinética de las partículas en ese sistema.
-        .col-xl-4
+        .col-md-6.col-xl-4
           .bgr_7.p-4.h-100
             figure.d-flex.justify-content-center
               img.w-auto.mb-3(src='@/assets/curso/tema2/img38.svg')
@@ -334,7 +335,7 @@
               h4.txt-color2 Razón
               p.text-white En esta escala, por el contrario, la presencia del cero indica ausencia total del atributo. No cobra sentido hablar de valores negativos en dichas variables. Ejemplo, el número de experimentos a realizar, cantidad de muestras a tomar, concentración de sal en un suero fisiológico.
         .col-xl-4
-          figure.d-flex.justify-content-center
+          figure.d-none.d-lg-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema2/img39.svg')
       
     .bg_grad_03
@@ -344,9 +345,9 @@
     p.mb-5 Se define como un conjunto de medidas estandarizado y consistente que resulta útil al momento de medir alguna magnitud física. Por convención se han establecido siete magnitudes básicas: masa, longitud, tiempo, temperatura, corriente eléctrica, cantidad de sustancia e intensidad lumínica.
 
     .row.mb-5.bg4.p-4
-      .col-xl-5.d-flex.align-items-center
+      .col-lg-5.mb-3.mb-lg-0.d-flex.align-items-center
         p.mb-0 Una magnitud se encuentra descrita por una unidad de medida y una cifra numérica que la dota de un sentido físico. Los científicos coincidían en que era necesario establecer un sistema de unidades que fuese adoptado por las masas, independiente de su cultura y localización geográfica. Así fue como en 1960 durante la XI Conferencia General de Pesas y Medidas, celebrada en París, se estableció un único sistema denominado <em>Le Système International d'Unités</em>, o Sistema Internacional de Unidades (SI), una medida que fue adoptada oficialmente sin reparo por la gran mayoría de países del mundo a excepción de Estados Unidos, Birmania, Puerto Rico, entre otros, quienes consideraron pertinente mantener su legado colonial y conservar su sistema imperial o anglosajón de unidades.
-      .col-xl-7
+      .col-lg-7
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1
           span Sistema Internacional de Unidades
@@ -387,18 +388,18 @@
       .col-xl-10
         p Asimismo, existen algunas magnitudes derivadas las cuales fueron definidas a partir de las siete fundamentales; entre estas se encuentran: presión, volumen, área, velocidad, fuerza, peso, potencia, frecuencia, trabajo, entre otras. Cada una de las unidades de medida enunciadas puede presentar múltiplos y submúltiplos, los cuales, sin duda, permiten hacer más práctica la labor de medida. En la siguiente tabla se especifican los prefijos adoptados por el SI, su valor y su símbolo correspondiente:
     
-    .row.mb-5.justify-content-center
-      .col-xl-5
+    .row.mb-5.d-flex.align-items-center.justify-content-center
+      .col-lg-5
         .titulo-sexto.color-acento-contenido
           h5 Tabla 2
           span Prefijos adoptados por el SI
          
         table
           thead.bgr_8
-            tr
-              th Prefijo
-              th Símbolo
-              th Valor
+            tr.text-center
+              th(style='width:30%') Prefijo
+              th(style='width:20%') Símbolo
+              th(style='width:50%') Valor
           tbody.text-center
             tr.bgr_9
               td Tera
@@ -440,8 +441,8 @@
               td Pico
               td p
               td 0.000000000001
-      .col-xl-4
-        figure.d-flex.justify-content-center
+      .col-lg-4
+        figure.d-none.d-lg-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema2/img40.png')
 
     .bg_grad_06
@@ -467,13 +468,13 @@
 
       p.mb-5 Al obtener una medición es necesario precisar que tan exacto y preciso puede ser dicha estimación, Es por ello que resulta necesario establecer la diferencia entre estos dos términos. De acuerdo con Chang (2002), exactitud se define como el grado de cercanía que tiene una medición a su valor real; en relación con precisión, se indica la homogeneidad o concordancia que guardan las dos o más mediciones respecto a un mismo atributo. Por tanto, una medida precisa, no necesariamente resulta exacta.
 
-      .row.mb-5
-        .col-xl-8
+      .row.mb-5.d-flex.align-items-center
+        .col-lg-8
           .bg_grad_08
             .row.mb-3
-              .col-xl-9.d-flex.align-items-center.ps-4
+              .col-md-9.d-flex.align-items-center.ps-4
                 p.mb-0.text-white En ocasiones, la operación y manejo de números y cifras puede resultar dispendioso y poco práctico, especialmente con cifras sumamente grandes o pequeñas en extremo. Independiente de la cifra, todo número puede expresarse en notación científica de la siguiente manera:
-              .col-xl-3
+              .col-md-3
                 .bgr_12.p-4.text-center
                   p.mb-0 𝑚 ∗ 10𝑛
                   p.mb-0 1 ≤ 𝑚 < 10
@@ -481,18 +482,18 @@
                   p.mb-0 𝑛 ∈ 𝑍
           p Siendo <b>m</b> cualquier número real en el intervalo 1 y 10 sin incluir este último. Y, n, cualquier número entero positivo o negativo que indica qué tan grande o qué tan pequeña es la cifra.
           .row.mb-5.justify-content-center
-            .col-xl-6
+            .col-lg-6
               .bgr_13.p-3
                 p.text-center.mb-0 1’200.000 puede expresarse como 1,2 x 10<sup>6</sup>
           p La coma, ubicada al final del último cero a la derecha, se desplazó seis (6) lugares hacia la IZQUIERDA (n será positivo y valor 6) hasta que el número formado estuviese entre 1 y 10 (1≤ m < 10).
           .row.mb-5.justify-content-center
-            .col-xl-6
+            .col-lg-6
               .bgr_13.p-3
                 p.text-center.mb-0 0,0000012 puede expresarse como 1,2 x 10<sup>-6</sup>
           p La coma, ubicada entre el primero y el segundo cero, se desplazó seis (6) lugares hacia la DERECHA (n será negativo y valor -6) hasta que el número formado estuviese entre 1 y 10 (1≤ m < 10). 
         
-        .col-xl-4
-          figure.d-flex.justify-content-center
+        .col-lg-4
+          figure.d-none.d-lg-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema2/img44.svg')
 
       .row.mb-5.justify-content-center
@@ -521,15 +522,15 @@
                 td.text-bold 1 gal = 3,785 l
     
     .row.mb-5
-      .col-xl-4
+      .col-xl-4.order-2.order-lg-1
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema2/img45.svg')
-      .col-xl-8
+      .col-xl-8.order-1.order-lg-2.mb-3.mb-lg-0
         p Un gran número de problemas en química, e incluso en la vida diaria, consisten en convertir una unidad de medida en otra: una conversión entre divisas, una receta de cocina, la administración de un fármaco, la operación de un equipo electrodoméstico, por citar algunos ejemplos cotidianos. Lo anterior exige contar con cierta aptitud matemática al momento de expresar cierta cantidad en la magnitud y unidad correcta, lo que se denomina análisis dimensional. Y aunque, actualmente, se cuenta con dispositivos que permiten realizar determinado cálculo en cuestión de segundos, conviene tener el criterio suficiente para evaluar e interpretar el resultado obtenido.
         p Esta labor puede verse simplificada al recurrir a la técnica de factor unitario que consiste en un multiplicar la cifra problema por una fracción, cuyo numerador y denominador resultan equivalentes (100 cm = 1 m; 1.000g = 1 kg; 1h = 3.600 s), por lo que se resume en multiplicar, sencillamente, por la unidad (1).
     
     .row.mb-5
-      .col-xl-8
+      .col-xl-8.mb-3.mb-lg-0
         p Dicha equivalencia que, al ubicarse de manera conveniente, permite eliminar la unidad que no se requiere y expresar la cantidad en las unidades correctas, garantizando la consistencia dimensional de la operación. 
         p La temperatura es ejemplo de instrumento de medida, hace referencia a la energía interna que posee un sistema. Dado que las partículas poseen una velocidad de movimiento y, por tanto, una energía cinética asociada, la temperatura será directamente proporcional al valor promedio de la energía cinética de estas moléculas. Debido a esta definición, dicha variable se mide de manera indirecta ya sea a través de diferencia de presiones, dilatación de un fluido, variaciones en la resistencia de un circuito, entre otras.
       .col-xl-4

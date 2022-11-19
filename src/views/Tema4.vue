@@ -7,7 +7,7 @@
         span 4
       h1 Transformaciones químicas
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-6.col-lg-6.medidas_bloque-textb_t4.medidas_fa-quote-textb_t4  
+      .col-12.col-lg-6.medidas_bloque-textb_t4.medidas_fa-quote-textb_t4  
         .tarjeta-color.pe-4.ps-3.py-4.mb-2.mb-md-4(data-aos="fade-right")
           .bloque-texto-b.color-acento-botones.px-4(data-aos="fade-right")
             .bloque-texto-b__texto.m-4
@@ -17,15 +17,15 @@
               br
               p.margin-texto_2.flex-end <b>(El País, 2017).</b>  
               i.fas.fa-quote-right
-      .col-12.col-md-6.col-lg-6.mb-4.mb-md-0
-        figure
-          img(src='@/assets/curso/tema4/img1.png' data-aos="zoom-in-down")
+      .col-12.col-lg-6.mb-4.mb-md-0
+        figure.d-flex.justify-content-center
+          img.w-auto(src='@/assets/curso/tema4/img1.png' data-aos="zoom-in-down")
 
     .bg5.p-5.mb-5 
       .row.align-items-center
         .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
-          figure
-            img.img-t.m-auto(src='@/assets/curso/tema4/img3.svg', alt='') 
+          figure.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema4/img3.svg', alt='') 
         .col-lg-8.mb-5(data-aos="fade-right") 
           p Es entonces que una reacción química es aquel proceso en el cual una o más sustancias de partida, denominadas reactivos, se transforman en otras químicamente diferentes, llamadas productos, mediante la separación, intercambios y/o reordenamiento de sus átomos constituyentes. Una ecuación química, por otro lado, es una representación alfanumérica lógica de este fenómeno. A continuación, se muestra genéricamente una ecuación química, donde se asume que A y B son los reactivos y, C y D, sus respectivos productos:
           .row.justify-content-center.align-items-center 
@@ -35,20 +35,20 @@
               p.text-center Las letras a, b, c y d corresponden a los coeficientes estequiométricos de ajuste.
     p.mb-5.text-center El vasto número de reacciones químicas puede clasificarse según el siguiente esquema de categorías:
     .row.justify-content-center(data-aos="fade-right")
-      .col-lg-3.mb-3
-        .tarjeta.tarjeta.bg6.p-5.h-100
+      .col-md-6.col-xl-3.mb-3
+        .tarjeta.tarjeta.bg6.p-md-3.p-5.h-100
           p.py-3.text-center.text-white Reacción de síntesis o combinación: dos o más sustancias se combinan para formar un único producto.
           img.img-t(src='@/assets/curso/tema4/img4.svg', alt='Texto que describa la imagen').mx-auto
-      .col-lg-3.mb-3
-        .tarjeta.tarjeta.bg6.p-5.h-100
+      .col-md-6.col-xl-3.mb-3
+        .tarjeta.tarjeta.bg6.p-md-3.p-5.h-100
           p.py-3.text-center.text-white Reacción de descomposición: un reactivo da lugar a dos o más productos. Generalmente, requiere el suministro de calor para que la reacción tome lugar, es decir son reacciones de tipo endotérmico.
           img.img-t(src='@/assets/curso/tema4/img7.svg', alt='Texto que describa la imagen' ).mx-auto
-      .col-lg-3.mb-3
-        .tarjeta.tarjeta.bg6.p-5.h-100
+      .col-md-6.col-xl-3.mb-3
+        .tarjeta.tarjeta.bg6.p-md-3.p-5.h-100
           p.py-3.text-center.text-white Reacción de sustitución o desplazamiento simple: se da cuando un elemento toma el lugar de otro en la formación de un compuesto.
           img.img-t(src='@/assets/curso/tema4/img8.svg', alt='Texto que describa la imagen' ).mx-auto
-      .col-lg-3.mb-3
-        .tarjeta.tarjeta.bg6.p-5.h-100
+      .col-md-6.col-xl-3.mb-3
+        .tarjeta.tarjeta.bg6.p-md-3.p-5.h-100
           p.py-3.text-center.text-white Reacción de metátesis o doble sustitución: ocurre cuando dos compuestos intercambian sus componentes iónicos para generar productos completamente diferentes. 
           img.img-t(src='@/assets/curso/tema4/img9.svg', alt='Texto que describa la imagen' ).mx-auto
     .row.mb-5.align-items-center
@@ -60,19 +60,19 @@
           .col-lg-11
             p.mb-0 Se debe garantizar que una ecuación química sea consistente con la ley de la conservación de la materia. Para ello, se hace uso de la técnica de balanceo por tanteo o inspección que consiste en asignar números enteros, denominados coeficientes estequiométricos, a cada uno de los compuestos involucrados en la reacción asegurando que el número de elementos de cada lado es el mismo. Esta técnica de ajuste resulta útil para un gran número de ecuaciones. Se aconseja balancear en este orden:
     .row.justify-content-center.mb-5(data-aos="fade-right")
-      .col-lg-2.mb-4
+      .col-md-6.col-lg-2.mb-4
         .tarjeta.tarjeta.bg1.p-4.h-100
           img.img-t.mb-4(src='@/assets/curso/tema4/img10.svg', alt='Texto que describa la imagen').mx-auto
           p.txt-color2.text-center Metales
-      .col-lg-2.mb-4
+      .col-md-6.col-lg-2.mb-4
         .tarjeta.tarjeta.bg1.p-4.h-100
           img.img-t.mb-4(src='@/assets/curso/tema4/img11.svg', alt='Texto que describa la imagen').mx-auto
           p.txt-color2.text-center No Metales  
-      .col-lg-2.mb-4
+      .col-md-6.col-lg-2.mb-4
         .tarjeta.tarjeta.bg1.p-4.h-100
           img.img-t.mb-4(src='@/assets/curso/tema4/img12.svg', alt='Texto que describa la imagen').mx-auto
           p.txt-color2.text-center Hidrógeno
-      .col-lg-2.mb-4
+      .col-md-6.col-lg-2.mb-4
         .tarjeta.tarjeta.bg1.p-4.h-100
           img.img-t.mb-4(src='@/assets/curso/tema4/img13.svg', alt='Texto que describa la imagen').mx-auto
           p.txt-color2.text-center Oxígeno

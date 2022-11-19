@@ -124,6 +124,12 @@
 .mdf
   .text-end 
     text-align: left!important
+  &_1
+    .tarjeta
+      @media (max-width: $bp-max-xs)
+        margin-left: 0
+        padding-left: 0
+
 .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__year
   color: #F9A829
 .medidas_bloque-textb_t4
@@ -269,6 +275,8 @@
     background-color: #F9A829
     border-top-left-radius: 30px
     border-bottom-left-radius: 30px
+    @media ( max-width: $bp-max-lg  )
+      width: 50%
 .bg_grad_02
   position: relative
   .row 
@@ -297,6 +305,9 @@
     background-color: #F9A829
     border-top-left-radius: 30px
     border-bottom-left-radius: 30px
+    @media ( max-width: $bp-max-lg  )
+      width: 30%
+      
 .bg_grad_04
   position: relative
   .row 
@@ -367,6 +378,16 @@
     height: 77%
     background-color: #31313C
     border-radius: 10px
+    @media ( max-width: $bp-max-lg )
+      top: 1%
+      height: 99%
+    @media ( max-width: $bp-max-md )
+      top: 6%
+      height: 89%
+    @media ( max-width: $bp-max-xs )
+      top: -3%
+      width: 100%
+      
 .bg_grad_09
   position: relative
   .row, 
@@ -408,6 +429,14 @@
     height: 117%
     background-color: #FEEDD3
     border-radius: 10px
+    @media ( max-width: $bp-max-lg )
+      left: 25%
+      width: 64%
+    @media ( max-width: $bp-max-xs )
+      width: 100%
+      top: 25%
+      left: 0
+      height: 76%
 .bg_grad_12
   position: relative
   .row, p
@@ -421,6 +450,9 @@
     width: calc( 100% + 6rem)
     height: 74%
     background-color: #F6DFB8
+    @media ( max-width: $bp-max-lg )
+      height: 80%
+      top: 20%
 .bg_grad_13
   position: relative
   .row, 
@@ -435,6 +467,14 @@
     height: 117%
     background-color: #FEEDD3
     border-radius: 10px
+    @media ( max-width: $bp-max-md )
+      left: 20%
+      width: 79%
+    @media ( max-width: $bp-max-xs )
+      left: 0
+      width: 100%
+      top: 25%
+      height: 72%
 .bg_grad_14
   position: relative
   .row, 
@@ -465,6 +505,50 @@
     background-image: url("../assets/curso/tema3/fondo2.svg")
     background-repeat: no-repeat
     background-size: cover
+.bg_grad_16
+  position: relative
+  .bgr, h3 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: 10px
+    left: 6px
+    width: 26%
+    height: 51%
+    background-color: #F9A829
+    border-top-left-radius: 30px
+    border-bottom-left-radius: 30px
+    @media ( max-width: $bp-max-lg  )
+      width: 36%
+.bg_grad_17
+  position: relative
+  .row, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: -13%
+    left: 11%
+    width: 89%
+    height: 117%
+    background-color: #FEEDD3
+    border-radius: 10px
+    @media ( max-width: $bp-max-lg )
+      top: -17%
+      height: calc(100% + 6rem)
+    @media ( max-width: $bp-max-md )
+      top: -17%
+      height: calc(100% + 3rem)
+      left: 20%
+      width: 79%
+    @media ( max-width: $bp-max-xs )
+      left: 0
+      width: 100%
+      top: 25%
+      height: 72%
 .psta
   position: absolute
   top: 19%
@@ -493,7 +577,7 @@
 .tabs-a__tab
   background-color: #E8E8E8
 .tabs-a.color-acento-contenido .tabs-a__tab__selected .tabs-a__tab__text
-  color: white
+  color: $color-sistema-texto
 .tarjeta.color-acento-botones--borde
   border-color: #DFDFE1
   background-color: #DFDFE1
@@ -533,4 +617,23 @@
 
 .slyder-a__btn--atrs
   background-color: #2BE9D6  
-    
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #FEE8DE !important
+      color: $color-sistema-texto
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #FEE8DE
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #F6F6F6
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #D2E1F1 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #F6F6F6

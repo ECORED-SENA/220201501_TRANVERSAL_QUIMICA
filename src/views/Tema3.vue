@@ -8,13 +8,13 @@
       h1 El átomo: unidad fundamental
     
     .row.mb-5
-      .col-xl-5
+      .col-xl-5.mb-3.mb-xl-0
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema3/img1.png')
       .col-xl-7
         p Los primeros en cuestionarse acerca de la composición de la materia fueron los griegos Leucipo y su discípulo Demócrito en el siglo V a. de C. Estos dos filósofos propusieron por primera vez la palabra átomo, que significa indivisible, para denominar a aquella unidad que formaba toda la materia. No obstante, algunos otros pensadores de la época argumentaban con propiedad sobre la continuidad de la materia, es decir, que esta se podía dividir indefinidamente. Algo que caracterizó esta época fue la inexistencia de la experimentación y comprobación empírica de las ideas por lo que, las conclusiones se basaban en solo un ejercicio de razonamiento.
     
-    .row.mb-5
+    .row
       .col-xl-8
         p.mb-5 Estas inquietudes volvieron a retomarse en Europa solo hasta el siglo XVll, cuando se intentó explicar las propiedades de los gases, entre estos, el aire. La experimentación comenzó a hacer parte del ejercicio de los científicos, lo que les permitió medir las cantidades de las sustancias que reaccionaban para producir otras diferentes. La teoría atómica se gestó entre los años 1803 y 1807 cuando el maestro de escuela inglés John Dalton (1766-1844) analizó numerosas observaciones y recopilaciones de trabajos previos en relación con la ley de la conservación de la masa, la ley de las proporciones definidas o ley de Proust y la ley de las proporciones múltiples, proponiendo los siguientes postulados:
         ul.lista-ul--color.ms-4
@@ -37,7 +37,7 @@
             i.fas.fa-atom.colr
             | El átomo es la unidad de materia más pequeña que puede participar en una reacción química (Libretexts, 2021).
       .col-xl-4
-        figure.d-flex.justify-content-center
+        figure.d-none.d-xl-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema3/img2.png')
     
     Separador
@@ -71,10 +71,10 @@
     p.mb-5 A continuación, se presentan algunos conceptos esenciales asociados al modelo atómico vigente.
 
     .row.mb-5
-      .col-xl-6
+      .col-lg-6.mb-3.mb-lg-0
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema3/img5.svg')
-      .col-xl-6
+      .col-lg-6
         LineaTiempoD.color-secundario
           p.text-small(numero="1" titulo="Número atómico (Z)") Indica el número de protones contenidos en el núcleo. Cuando el átomo es neutro, Z indica el número de electrones. El número de protones es único para cada especie atómica, es de manera análoga, la huella digital de los átomos, quienes les confiere identidad.
           p.text-small(numero="2" titulo="Número másico (A)") Número de protones más neutrones, dado que la masa de los electrones es despreciable en relación con la masa nuclear.
@@ -115,15 +115,15 @@
       .col-xl-10
         .bg_grad_09
           .row.mb-3
-            .col-xl-9.d-flex.align-items-center.ps-4
+            .col-lg-9.mb-3.mb-lg-0.d-flex.align-items-center.ps-5
               p.mb-0 Cada subnivel tiene un número máximo de electrones que puede contener, los cuales se especifican a continuación:
-            .col-xl-3
+            .col-lg-3
               .bg2.p-4.text-center
                   table
                     thead.bgr_8
                       tr
-                        th Subnivel
-                        th Número máximo <br>de electrones
+                        th(style='width:47%') Subnivel
+                        th(style='width:53%') Número máximo <br>de electrones
                     tbody.text-center
                       tr.bgr_9
                         td s
@@ -182,31 +182,31 @@
     p.mb-5.text-center Es importantísimo seguir el orden de las flechas (de arriba hacia abajo y derecha a izquierda), si lo escribiéramos en forma horizontal quedaría:
 
     .bg_grad_10
-      .row.mb-3.justify-content-center
-        .col-xl-5
+      .row.mb-3.d-flex.justify-content-center
+        .col-lg-5.d-flex.justify-content-center
           .bgr_14.px-5.py-2
-            h4.mb-0 Orden horizontal configuración electrónica
+            h4.mb-0.text-center Orden horizontal configuración electrónica
     
       .row.mb-5
-        .col-xl-4
+        .col-lg-4.mb-3.mb-lg-0
           figure.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema3/img12.svg')
-        .col-xl-8.d-flex.align-items-center
+        .col-lg-8.d-flex.align-items-center
           div
             .row.justify-content-center.mb-3
               .col-auto
-                p.bgr_13.px-3.py-2.text-center 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p 6s 4f 5d 6p 7s 5f 6d 7p
+                p.bgr_13.px-3.py-2.text-center.text-bold 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p 6s 4f 5d 6p 7s 5f 6d 7p
             p En el ejemplo del Cloro que tiene número atómico de 17 es decir:
             p Z= 35, lo cual significa que tiene 35 electrones para representar electrónicamente, ósea que a la cadena anterior se va llenando con los exponentes hasta completar 17 así:
             p <b>Configuración electrónica del Cloro.</b>
             .row.justify-content-center.mb-3
               .col-auto
-                p.bgr_13.px-3.py-2.text-center 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>5</sup>
+                p.bgr_13.px-3.py-2.text-center.text-bold 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>5</sup>
             p De acuerdo a lo visto anteriormente el subnivel 3p puede albergar hasta 6 electrones, pero con 5 en el caso del Cloro se completan los 17, así:
             p <b> Suma electrones del Cloro.</b>
             .row.justify-content-center.mb-3
               .col-auto
-                p.bgr_13.px-3.py-2.text-center 2 + 2 + 6 + 2 + 5 = 17 electrones
+                p.bgr_13.px-3.py-2.text-center.text-bold 2 + 2 + 6 + 2 + 5 = 17 electrones
             p.mb-0 Una vez terminada la configuración, de esta se puede deducir el grupo y el periodo que tiene el elemento en la tabla periódica.
     
     p.text-center En cuanto al periodo solo debe observar cual fue el coeficiente más alto, en este caso es el 3, osea el cloro tiene periodo 3.
@@ -214,14 +214,14 @@
     p.mb-5.text-center.text-bold Procedimiento configuración del cloro en cuanto al periodo.
 
     .row.mb-5.justify-content-center
-      .col-xl-2
+      .col-md-8.col-lg-4.col-xl-2.mb-3.mb-lg-0
         .bgr_15.p-4
           figure.mb-3.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema3/img13.svg')
           p.text-center Z=35,5
           p.text-center.mb-0 Su número atómico es igual al número de protones p+ 
           p.text-center.mb-0 e-=17
-      .col-xl-4
+      .col-md-8.col-lg-6.col-xl-4
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema3/img14.svg')
     
@@ -232,7 +232,7 @@
         .col-auto
           figure.mb-3.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema3/img15.svg')
-        .col-xl-4
+        .col-md-6.col-xl-4.p-4.p-md-0
           p.text-bold Datos completos del Cloro
           p.mb-0 Los niveles en los cuales hay electrones son: 
           p <b>1,2,2,3,3</b>
@@ -251,24 +251,24 @@
       
       p.text-center.mb-5 Sigamos tomando el caso del Cloro como ejemplo:
 
-      .row.mb-5
-        .col-xl-6
-          .bg_grad_13
+      .row.mb-md-5
+        .col-lg-6
+          .bg_grad_17
             .row.mb-5.justify-content-center
               .col-auto
                 figure.mb-3.d-flex.justify-content-center
                   img.w-auto(src='@/assets/curso/tema3/img15.svg')
-              .col-xl-8
+              .col-md-7.p-4.p-md-0
                 p.text-bold Región donde se encuentra el Cloro.
                 p.text-bold 1s<sup>2</sup>  2s<sup>2</sup>   2p<sup>6</sup>    3s<sup>2</sup>   3p <sup>5</sup>
                 p La configuración electrónica del Cloro termina en el subnivel “p” por tanto el Cloro pertenece a un grupo de la letra “A”
-        .col-xl-6
+        .col-lg-6
           .bg_grad_13
             .row.mb-5.justify-content-center
               .col-auto
                 figure.mb-3.d-flex.justify-content-center
                   img.w-auto(src='@/assets/curso/tema3/img15.svg')
-              .col-xl-8
+              .col-md-7.p-4.p-md-0
                 p.text-bold Grupo del Cloro
                 p.text-bold 1s<sup>2</sup>  2s<sup>2</sup>   2p<sup>6</sup>    3s<sup>2</sup>   3p <sup>5</sup>
                 p.mb-0 El Cloro pertenece a un grupo de la letra “A”.
@@ -279,17 +279,17 @@
       p.mb-5.text-center A través de la configuración electrónica de los elementos, se puede hallar el número de valencia de cada uno.
 
       .row.mb-5
-        .col-xl-6.d-flex.align-items-center
+        .col-lg-6.d-flex.align-items-center
           div
             p La valencia permite establecer enlaces para formar compuestos, son números positivos o negativos que indican lo que le falta o le sobra para cumplir con la Ley del Octeto en la cual el elemento químico tiende a completar ocho electrones en su último nivel; para este fin puede establecer enlaces covalentes.
             p.text-bold En el ejemplo del Cloro.
-        .col-xl-6.mt-4
+        .col-lg-6.mt-4
           .bg_grad_13
             .row.mb-5.justify-content-center
               .col-auto
                 figure.mb-3.d-flex.justify-content-center
                   img.w-auto(src='@/assets/curso/tema3/img15.svg')
-              .col-xl-8
+              .col-md-7.p-4.p-md-0
                 p.text-bold Valencia del Cloro
                 p.text-bold 1s  2s   2p    3s   3p 
                 p.mb-0 El Cloro pertenece a un grupo de la letra “A”.
@@ -476,68 +476,93 @@
           .tarjeta.tarjeta--azul.p-4.mb-5
             SlyderA.flesly(tipo="b")(data-aos="fade-right")
               .row.justify-content-center.p-3
-                .col-lg-6.mb-5.mb-lg-0.p-2
+                .col-lg-6.mb-3.mb-lg-0.p-2
                   figure
-                    img.img-t.m-auto.mb-5(src='@/assets/curso/tema3/img.23.svg', alt='').mx-auto 
+                    img.img-t.m-auto.mb-3(src='@/assets/curso/tema3/img.23.svg', alt='').mx-auto 
                 .col-lg-12.mb-4.mb-lg-0.p-2
-                  p.ms-5.text-white 1 Escribir fórmula del compuesto: H<sub>2</sub>SO<sub>4</sub>
-                  p.ms-5.text-white 2 Determinar cantidad de átomos en el compuesto.
+                  ol.lista-ol--cuadro.ms-5
+                    li.text-white
+                      .lista-ol--cuadro__vineta
+                        span 1
+                      | Escribir fórmula del compuesto: H<sub>2</sub>SO<sub>4</sub>
+                    li.text-white
+                      .lista-ol--cuadro__vineta
+                        span 2
+                      | Determinar cantidad de átomos en el compuesto.
+
               .row.justify-content-center.p-3
-                .col-lg-4.mb-5.mb-lg-0.p-2
+                .col-lg-4.mb-3.mb-lg-0.p-2
                   figure
-                    img.img-t.m-auto.mb-5(src='@/assets/curso/tema3/img.24.svg', alt='').mx-auto 
+                    img.img-t.m-auto.mb-3(src='@/assets/curso/tema3/img.24.svg', alt='').mx-auto 
                 .col-lg-12.mb-4.mb-lg-0.p-2
-                  p.ms-5.text-white 3 Ubicar el elemento central de la fórmula con sus electrones del último nivel, estos corresponden al número del grupo en el que se encuentra ubicado en la tabla periódica.
+                  ol.lista-ol--cuadro.ms-5
+                    li.text-white
+                      .lista-ol--cuadro__vineta
+                        span 3
+                      | Ubicar el elemento central de la fórmula con sus electrones del último nivel, estos corresponden al número del grupo en el que se encuentra ubicado en la tabla periódica.
+          
               .row.justify-content-center.p-3
-                .col-lg-4.mb-5.mb-lg-0.p-2
+                .col-lg-4.mb-3.mb-lg-0.p-2
                   figure
-                    img.img-t.m-auto.mb-5(src='@/assets/curso/tema3/img.26.svg', alt='').mx-auto 
+                    img.img-t.m-auto.mb-3(src='@/assets/curso/tema3/img.26.svg', alt='').mx-auto 
                 .col-lg-12.mb-4.mb-lg-0.p-2
-                  p.ms-5.text-white 4 Ubicar alrededor del azufre los 4 oxígenos con sus electrones del último nivel.
+                  ol.lista-ol--cuadro.ms-5
+                    li.text-white
+                      .lista-ol--cuadro__vineta
+                        span 4
+                      | Ubicar alrededor del azufre los 4 oxígenos con sus electrones del último nivel.
               .row.justify-content-center.p-3
-                .col-lg-4.mb-5.mb-lg-0.p-2
+                .col-lg-4.mb-3.mb-lg-0.p-2
                   figure
-                    img.img-t.m-auto.mb-5(src='@/assets/curso/tema3/img.25.svg', alt='').mx-auto 
+                    img.img-t.m-auto.mb-3(src='@/assets/curso/tema3/img.25.svg', alt='').mx-auto 
                 .col-lg-12.mb-4.mb-lg-0.p-2
-                  p.ms-5.text-white 5 Ubicar los Hidrógenos para completar los 8 electrones del Oxígeno.
+                  ol.lista-ol--cuadro.ms-5
+                    li.text-white
+                      .lista-ol--cuadro__vineta
+                        span 5
+                      | Ubicar los Hidrógenos para completar los 8 electrones del Oxígeno.
               .row.justify-content-center.p-3
-                .col-lg-6.mb-5.mb-lg-0.p-2
+                .col-lg-6.mb-3.mb-lg-0.p-2
                   figure
-                    img.img-t.m-auto.mb-5(src='@/assets/curso/tema3/img.27.svg', alt='').mx-auto 
+                    img.img-t.m-auto.mb-3(src='@/assets/curso/tema3/img.27.svg', alt='').mx-auto 
                 .col-lg-12.mb-4.mb-lg-0.p-2
-                  p.ms-5.text-white 6 Verificar que todos los elementos del compuesto cumplen con la ley del octeto.
+                  ol.lista-ol--cuadro.ms-5
+                    li.text-white
+                      .lista-ol--cuadro__vineta
+                        span 6
+                      | Verificar que todos los elementos del compuesto cumplen con la ley del octeto.
     
       .bg_grad_03
         .bgr.px-5.pt-3.pb-4.mb-3(data-aos="fade-down-right")
           h3.mb-0  Estados de oxidación
 
-      .row.mb-5
-        .col-xl-8
+      .row.mb-5.justify-content-center
+        .col-xl-8.mb-3.mb-lg-0
           p En estado natural y cuando se combinan los átomos tienen carga neutra. Los estados de oxidación dependen de la ubicación en la tabla periódica, específicamente del grupo al cual pertenece permitiendo a los elementos formar compuestos.
           p El estado de oxidación, está determinado por los electrones que se encuentran en la capa de valencia del átomo, que buscan cumplir con la regla del octeto.
           p Por ejemplo: cuando se une un átomo de sodio (Na) con un átomo de cloro (CI) para formar un enlace iónico (la unión entre un elemento metálico y otro no metálico): 
           .row.justify-content-center
             .col-auto
-              p.bgr_13.px-3.py-2.text-center Na + Cl
+              p.bgr_13.px-3.py-2.text-center.text-bold Na + Cl
           .row.justify-content-center.mb-3
             .col-auto
-              p.bgr_13.px-3.py-2.text-center Sodio + Cloro
+              p.bgr_13.px-3.py-2.text-center.text-bold Sodio + Cloro
           p El sodio que se encuentra ubicado en el grupo lA de la tabla periódica, le sobra un electrón en su capa de valencia para cumplir con la regla del octeto (regla que dice que todos los elementos deben tener 8 electrones en su último nivel de energía) entonces para el sodio sería:
           .row.justify-content-center.mb-3
             .col-auto
-              p.bgr_13.px-3.py-2.text-center Na<sup>+1</sup>
+              p.bgr_13.px-3.py-2.text-center.text-bold Na<sup>+1</sup>
           p Mientras que el cloro es un elemento al que le hace falta un electrón en su capa de valencia para cumplir con su regla del octeto, entonces el Cloro es:
           .row.justify-content-center.mb-3
             .col-auto
-              p.bgr_13.px-3.py-2.text-center CL<sup>-1</sup>
-        .col-xl-4
+              p.bgr_13.px-3.py-2.text-center.text-bold CL<sup>-1</sup>
+        .col-md-6.col-xl-4
           figure.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema3/img23.svg')
       
       P.mb-5 De acuerdo a lo anterior en la tabla a continuación observará los números de oxidación de acuerdo al grupo en la tabla periódica:
       
       .row.mb-5.justify-content-center
-        .col-xl-5
+        .col-md-6.col-xl-5.mb-3.mb-lg-0
           figure.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema3/img24.svg')
         .col-xl-4
@@ -590,22 +615,22 @@
         img.w-auto(src='@/assets/curso/tema3/img26.svg')
       
       .row.mb-5
-        .col-xl-3
+        .col-md-6.col-xl-3.mb-3.mb-xl-0
           .bgr_18.p-5.h-100.d-flex.align-items-center
             .text-center
               h4.txt-color2 Óxidos
               p.text-white.mb-0 Resultan de la unión del oxígeno con otro elemento de la tabla periódica Se pueden dividir en dos, los óxidos básicos y los óxidos ácidos.
-        .col-xl-3
+        .col-md-6.col-xl-3.mb-3.mb-xl-0
           .bgr_18.p-5.h-100.d-flex.align-items-center
             .text-center
               h4.txt-color2 Hidróxidos
               p.text-white.mb-0 Resultan cuando un óxido básico, es decir, a la unión de un oxígeno con un metal, se le agrega agua; su característica específica consiste en que en su estructura aparece el grupo funcional OH.
-        .col-xl-3
+        .col-md-6.col-xl-3.mb-3.mb-xl-0
           .bgr_18.p-5.h-100.d-flex.align-items-center
             .text-center
               h4.txt-color2 Ácidos
               p.text-white.mb-0 Los ácidos se forman cuando se une el hidrógeno a un metal o a un no metal, pueden clasificar en dos: ácidos oxácidos y ácidos hidrácidos.
-        .col-xl-3
+        .col-md-6.col-xl-3.mb-3.mb-xl-0
           .bgr_18.p-5.h-100.d-flex.align-items-center
             .text-center
               h4.txt-color2 Los ácidos oxácidos
@@ -614,22 +639,22 @@
       p.mb-5 Estas se obtienen cuando se hace reaccionar un ácido con una base; el resultado de esta reacción es una sal más agua. La sal está compuesta de un metal y un no metal.
 
       .row.mb-5
-        .col-xl-3
+        .col-md-6.col-xl-3.mb-3.mb-xl-0
           .bgr_19.p-5.h-100.d-flex.align-items-center
             .text-center
               h4 Haloidea
               p.mb-0 Cuando solo existen dos átomos en la molécula, el metal y el no metal.
-        .col-xl-3
+        .col-md-6.col-xl-3.mb-3.mb-xl-0
           .bgr_19.p-5.h-100.d-flex.align-items-center
             .text-center
               h4 Oxácida
               p.mb-0 Cuando aparte del metal y el no metal, también hay un oxígeno.
-        .col-xl-3
+        .col-md-6.col-xl-3.mb-3.mb-xl-0
           .bgr_19.p-5.h-100.d-flex.align-items-center
             .text-center
               h4 Ácida
-              p.mb-0 Cuando no se sustituyen todos los hidrógenos y queda alguno en la molécula.
-        .col-xl-3
+              p.mb-0 Cuando no se sustituyen todos los hidrógenos y queda axluno en la molécula.
+        .col-md-6.col-xl-3.mb-3.mb-xl-0
           .bgr_19.p-5.h-100.d-flex.align-items-center
             .text-center
               h4 Básica
@@ -679,7 +704,7 @@
       p.mb-5 La química orgánica se enfoca en el estudio de compuestos donde la base es el átomo de carbono, cuya cifra se aproxima a 24 millones de compuestos, entre los que se encuentran: Polímeros, fármacos, derivados del petróleo, cosméticos, fibras, pigmentos y biomoléculas tales como: carbohidratos, lípidos, proteínas, vitaminas, ácidos nucleicos, entre otras. 
 
       .row.mb-5.justify-content-center
-        .col-xl-4
+        .col-xl-4.mb-3.mb-xl-0
           .tarjeta.bgr_3.h-100.p-3.p-xl-5.text-center
             h3 QUIMICA ORGÁNICA
             p Único elemento capaz de formar compuestos en cadena con hidrógeno, oxígeno y otros 
@@ -711,7 +736,7 @@
       .bgr.px-5.pt-3.pb-4.mb-3(data-aos="fade-down-right")
         h3.mb-0 Hidrocarburos
     
-    .row.mb-5
+    .row.mb-5.justify-content-center
       .col-xl-9
         p Como su nombre lo indica son compuestos formados esencialmente, por carbono e hidrógeno. Pueden formar largas cadenas abiertas o cerradas, lineales o ramificadas. Para nombrar estos compuestos, se hace uso de prefijos de cantidad que denotan el número de carbonos de la cadena principal. Entre los tipos de hidrocarburos se encuentran:
         TabsA.color-acento-contenido.mb-5
@@ -735,7 +760,7 @@
             p Hacen referencia a los derivados de la molécula de benceno, C6H6    
             figure.d-flex.justify-content-center
               img.w-auto(src='@/assets/curso/tema3/img37.svg')
-      .col-xl-3
+      .col-md-6.col-xl-3
         figure.mb-5.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema3/img33.svg')
     
