@@ -96,7 +96,7 @@
     
     p.mb-5 La configuración electrónica hace referencia a la manera como están distribuidos los electrones en la zona periférica de un átomo, compuesta por orbitales; gran parte de las propiedades fisicoquímicas del átomo se explican a partir de esta.
 
-    .row.mb-5
+    .row
       .col-xl-5
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema3/img7.png')
@@ -109,13 +109,13 @@
             i.fas.fa-atom.colr
             | El orden de llenado se da de acuerdo con el principio de Aufbau, es decir, los orbitales se ocupan empezando por el de menor energía y siguiendo en un orden energético creciente. Para conocer esta distribución electrónica, se hace uso de la herramienta denominada triángulo de Moeller.
     
-    p.mb-5 En dicho diagrama el número representa el nivel, en este caso (1). La letra que lo acompaña, s, el subnivel, y el exponente, 2, los electrones alojados en ese subnivel. 
+    p En dicho diagrama el número representa el nivel, en este caso (1). La letra que lo acompaña, s, el subnivel, y el exponente, 2, los electrones alojados en ese subnivel. 
 
     .row.mb-5.justify-content-center
       .col-xl-10
         .bg_grad_09
           .row.mb-3
-            .col-lg-9.mb-3.mb-lg-0.d-flex.align-items-center.ps-5
+            .col-lg-9.mb-3.mb-lg-0.d-flex.align-items-center.ps-lg-5
               p.mb-0 Cada subnivel tiene un número máximo de electrones que puede contener, los cuales se especifican a continuación:
             .col-lg-3
               .bg2.p-4.text-center
@@ -481,14 +481,14 @@
                     img.img-t.m-auto.mb-3(src='@/assets/curso/tema3/img.23.svg', alt='').mx-auto 
                 .col-lg-12.mb-4.mb-lg-0.p-2
                   ol.lista-ol--cuadro.ms-5
-                    li.text-white
+                    li
                       .lista-ol--cuadro__vineta
                         span 1
-                      | Escribir fórmula del compuesto: H<sub>2</sub>SO<sub>4</sub>
-                    li.text-white
+                      p.text-white.mb-0 Escribir fórmula del compuesto: H<sub>2</sub>SO<sub>4</sub>
+                    li
                       .lista-ol--cuadro__vineta
                         span 2
-                      | Determinar cantidad de átomos en el compuesto.
+                      p.text-white.mb-0 Determinar cantidad de átomos en el compuesto.
 
               .row.justify-content-center.p-3
                 .col-lg-4.mb-3.mb-lg-0.p-2
@@ -496,10 +496,10 @@
                     img.img-t.m-auto.mb-3(src='@/assets/curso/tema3/img.24.svg', alt='').mx-auto 
                 .col-lg-12.mb-4.mb-lg-0.p-2
                   ol.lista-ol--cuadro.ms-5
-                    li.text-white
+                    li
                       .lista-ol--cuadro__vineta
                         span 3
-                      | Ubicar el elemento central de la fórmula con sus electrones del último nivel, estos corresponden al número del grupo en el que se encuentra ubicado en la tabla periódica.
+                      p.text-white.mb-0 Ubicar el elemento central de la fórmula con sus electrones del último nivel, estos corresponden al número del grupo en el que se encuentra ubicado en la tabla periódica.
           
               .row.justify-content-center.p-3
                 .col-lg-4.mb-3.mb-lg-0.p-2
@@ -507,30 +507,30 @@
                     img.img-t.m-auto.mb-3(src='@/assets/curso/tema3/img.26.svg', alt='').mx-auto 
                 .col-lg-12.mb-4.mb-lg-0.p-2
                   ol.lista-ol--cuadro.ms-5
-                    li.text-white
+                    li
                       .lista-ol--cuadro__vineta
                         span 4
-                      | Ubicar alrededor del azufre los 4 oxígenos con sus electrones del último nivel.
+                      p.text-white.mb-0 Ubicar alrededor del azufre los 4 oxígenos con sus electrones del último nivel.
               .row.justify-content-center.p-3
                 .col-lg-4.mb-3.mb-lg-0.p-2
                   figure
                     img.img-t.m-auto.mb-3(src='@/assets/curso/tema3/img.25.svg', alt='').mx-auto 
                 .col-lg-12.mb-4.mb-lg-0.p-2
                   ol.lista-ol--cuadro.ms-5
-                    li.text-white
+                    li
                       .lista-ol--cuadro__vineta
                         span 5
-                      | Ubicar los Hidrógenos para completar los 8 electrones del Oxígeno.
+                      p.text-white.mb-0 Ubicar los Hidrógenos para completar los 8 electrones del Oxígeno.
               .row.justify-content-center.p-3
                 .col-lg-6.mb-3.mb-lg-0.p-2
                   figure
                     img.img-t.m-auto.mb-3(src='@/assets/curso/tema3/img.27.svg', alt='').mx-auto 
                 .col-lg-12.mb-4.mb-lg-0.p-2
                   ol.lista-ol--cuadro.ms-5
-                    li.text-white
+                    li
                       .lista-ol--cuadro__vineta
                         span 6
-                      | Verificar que todos los elementos del compuesto cumplen con la ley del octeto.
+                      p.text-white.mb-0 Verificar que todos los elementos del compuesto cumplen con la ley del octeto.
     
       .bg_grad_03
         .bgr.px-5.pt-3.pb-4.mb-3(data-aos="fade-down-right")
@@ -555,14 +555,14 @@
           .row.justify-content-center.mb-3
             .col-auto
               p.bgr_13.px-3.py-2.text-center.text-bold CL<sup>-1</sup>
-        .col-md-6.col-xl-4
+        .col-6.col-md-4
           figure.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema3/img23.svg')
       
       P.mb-5 De acuerdo a lo anterior en la tabla a continuación observará los números de oxidación de acuerdo al grupo en la tabla periódica:
       
       .row.mb-5.justify-content-center
-        .col-md-6.col-xl-5.mb-3.mb-lg-0
+        .col-6.col-md-4.col-xl-5.mb-3.mb-lg-0
           figure.d-flex.justify-content-center
             img.w-auto(src='@/assets/curso/tema3/img24.svg')
         .col-xl-4
@@ -760,7 +760,7 @@
             p Hacen referencia a los derivados de la molécula de benceno, C6H6    
             figure.d-flex.justify-content-center
               img.w-auto(src='@/assets/curso/tema3/img37.svg')
-      .col-md-6.col-xl-3
+      .col-6.col-md-4.col-xl-3
         figure.mb-5.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema3/img33.svg')
     

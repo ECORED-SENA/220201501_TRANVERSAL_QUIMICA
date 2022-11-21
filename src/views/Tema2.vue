@@ -236,7 +236,7 @@
           .col-xl-8.mb-4.mb-xl-0
             p.text-bold Filtración
             p Permite la separación de las mezclas que están compuestas por líquidos y sólidos insolubles; es decir, que los sólidos no se disuelven en el líquido.  Por ejemplo: el azúcar se disuelve con el agua, pero si echamos arena de río esta no se disuelve, es decir no es soluble.  Para separar esta mezcla, se utiliza un embudo con un papel de filtro en su interior, se hace pasar a la mezcla por ellos.
-      .py-3.p-5.p-3.p-lg-0(titulo="Separación magnética")
+      .py-3.p-3.p-lg-5(titulo="Separación magnética")
         p.text-bold Separación magnética
         p.mb-5 Esta técnica, solo sirve para separar sustancias con propiedades magnéticas como los metales de aquellas que no las poseen. Para esto, se utilizan imanes que atraen a las sustancias magnéticas y así se logra separarlas de las que no lo son.
         figure.d-flex.justify-content-center
@@ -250,17 +250,17 @@
           .col-xl-8.mb-4.mb-xl-0
             p.text-bold Decantación
             p Para decantar una mezcla, se deja reposar, sólo tiene éxito al tener diferencia en densidades y no ser solubles entre sí los integrantes de la misma.
-      .py-3.p-5.p-3.p-lg-0(titulo="Cristalización y precipitación")
+      .py-3.p-3.p-lg-5(titulo="Cristalización y precipitación")
         p.text-bold Cristalización y precipitación
         p.mb-5 Se usa al tener una mezcla entre un sólido disuelto en un líquido, con ayuda de calor se facilita la evaporación del solvente permitiendo la formación de cristales de soluto. 
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema2/img29.svg')
-      .py-3.p-5.p-3.p-lg-0(titulo="Destilación")
+      .py-3.p-3.p-lg-5(titulo="Destilación")
         p.text-bold Destilación
         p.mb-5 Es útil para la separación de líquidos que son solubles entre sí. El método consiste en ponerlos en ebullición tomando los vapores por un tubo para luego pasarlo al estado líquido nuevamente por diferencia en los puntos de ebullición y por condensación.
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema2/img30.svg')
-      .py-3.p-5.p-3.p-lg-0(titulo="La cromatografía")
+      .py-3.p-3.p-lg-5(titulo="La cromatografía")
         p.text-bold La Cromatografía
         p.mb-5 Permite la separación de gases o líquidos de una mezcla por adsorción selectiva, produciendo manchas diferentemente coloreadas en el medio adsorbente; está basado en la diferente velocidad con la que se mueve cada fluido a través de una sustancia porosa como es el papel de filtro.  
         figure.d-flex.justify-content-center

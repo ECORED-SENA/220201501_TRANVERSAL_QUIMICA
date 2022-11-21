@@ -81,8 +81,8 @@
   background-repeat: no-repeat
   background-size: 100% 100%
   @media (max-width: $bp-max-md)
-    width: 78%
-    margin-left: 35px
+    width: 100%
+    
 
 .bg7
   background-color: #FEE8DE
@@ -384,6 +384,9 @@
     @media ( max-width: $bp-max-md )
       top: 6%
       height: 89%
+    @media ( max-width: 767px )
+      top: -3%
+      width: 100%
     @media ( max-width: $bp-max-xs )
       top: -3%
       width: 100%
@@ -637,3 +640,5 @@
   .col
     .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
       background-color: #F6F6F6
+.lista-ol--cuadro__vineta
+  color: $color-sistema-texto

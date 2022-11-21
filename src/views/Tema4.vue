@@ -8,9 +8,9 @@
       h1 Transformaciones químicas
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-6.medidas_bloque-textb_t4.medidas_fa-quote-textb_t4  
-        .tarjeta-color.pe-4.ps-3.py-4.mb-2.mb-md-4(data-aos="fade-right")
-          .bloque-texto-b.color-acento-botones.px-4(data-aos="fade-right")
-            .bloque-texto-b__texto.m-4
+        .tarjeta-color.py-4.mb-2.mb-md-4(data-aos="fade-right")
+          .bloque-texto-b.color-acento-botones(data-aos="fade-right")
+            .bloque-texto-b__texto.ms-4
               i.fas.fa-quote-left
               p.m-5 Cuesta reconocer que absolutamente todo alrededor es resultado de la química y sus reacciones, que lo asombroso de esta ciencia no se limita a recipientes burbujeantes en un laboratorio; fue gracias a esta que el universo, el cosmos y la misma vida en la tierra tuvieron un principio. Las transformaciones químicas toman lugar a cada instante y en todo momento, en lugares insospechados. Se dice que cada segundo se dan 100.000 reacciones químicas solo en el cerebro humano.
               br
