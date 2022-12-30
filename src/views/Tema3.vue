@@ -450,14 +450,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6        
         p Se da cuando hay una unión entre no metales, como estos tienen una electronegatividad muy alta no se da pérdida ni ganancia de electrones, por lo cual estos son compartidos.
-        p Existen diferentes tipos de enlaces covalentes como se verá a continuación.
-        .row
-          .col-lg-12
-            a.anexo.mb-4.mb-lg-0(href="https://login.bdigital.sena.edu.co/login?url=https://ebookcentral.proquest.com/lib/senavirtualsp/reader.action?docID=3227909&ppg=9" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-link.svg")
-              .anexo__texto
-                p <b> Enlace web</b>. Consulte la biblioteca digitaL González, M. R. M., & Montagut, B. P. (2014). Química.   
+         
       .col-lg-6.mb-3
         figure
           img.img-t(src='@/assets/curso/tema3/img.21.svg').mx-auto
@@ -687,17 +680,8 @@
           p Se utiliza colocando el grupo funcional acompañado de un prefijo griego que indica el número de este, seguido del átomo que lo acompaña. Estos prefijos son mono para uno, di para dos, tri para tres y así sucesivamente. Por ejemplos:
           p <b>CO<sub>2</sub></b> = Dióxido de carbono
           p <b>N<sub>2</sub>O<sub>3</sub></b> = Trióxido de Dinitrógeno
-          p.mb-5 Para profundizar los conocimientos relacionados con la temática anteriormente presentada, lo invitamos a leer la unidad 3.
-          .row
-            .col-auto
-              a.anexo.mb-4.mb-lg-0(href="https://login.bdigital.sena.edu.co/login?qurl=https://ebookcentral.proquest.com%2flib%2fsenavirtualsp%2freader.action%3fdocID%3d3227909%26ppg%3d9" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/template/icono-link.svg")
-                .anexo__texto
-                  p Consulte la biblioteca digitaL González, M. R. M., & Montagut, B. P. (2014). Química. 
-      
+          
       separador
-
       #t_3_3.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 3.3	La química orgánica
       
