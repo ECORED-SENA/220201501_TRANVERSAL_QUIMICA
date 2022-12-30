@@ -282,7 +282,7 @@ export default {
       referencia:
         'TOMi.Digital. (2020). Mapa conceptual de clasificación de la materia. [Esquema].',
       link:
-        'https://tomi-digital-resources.storage.googleapis.com/images/classes/resources/rsc- 55949-5e7e8e7667ca3.jpeg',
+        'https://tomi.digital/es/22584/clasificacion-de-la-materia?utm_source=google&utm_medium=seo',
     },
     {
       referencia:
@@ -292,7 +292,7 @@ export default {
       referencia:
         'Libretexts. (2021). 2.2: The Discovery of Atomic Structure. Chemistry LibreTexts.',
       link:
-        'https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/02._Atoms_Molecules_and_Ions/2.2%3A_The_Discovery_of_At omic_Structure',
+        'https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/02%3A_Atoms_Molecules_and_Ions/2.03%3A_The_Modern_View_of_Atomic_Structure',
     },
     {
       referencia:
@@ -304,7 +304,7 @@ export default {
       referencia:
         'Quimikamptwo.blogspot.com. (2017). Evolución del modelo atómico. [Esquema].',
       link:
-        'https://4.bp.blogspot.com/- 9IcfUOCa0gc/WdAxHRAStmI/AAAAAAAAAUY/PasZ_pyuw6QCh7SFzXYNT_hjl6yU19CQgCLcBGAs/s1 600/LINEA%2BDEL%2BTIEMPO-MODELOS%2BATOMO.jpg',
+        'http://quimikamptwo.blogspot.com/2017/09/linea-del-tiempo-modelos-atomicos.html',
     },
     {
       referencia:
