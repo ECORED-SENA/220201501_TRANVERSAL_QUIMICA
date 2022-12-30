@@ -22,7 +22,7 @@
         p Todo cuanto se observa, que se pueda medir y ocupe un lugar en el espacio, se denomina materia; de allí que la disciplina encargada de estudiar esta y los cambios que las sustancias experimentan, comúnmente, se conoce como Química, una ciencia experimental que, sin duda, resulta nuclear en muchas otras disciplinas del conocimiento como la astronomía, bioquímica, geología, fisicoquímica y de ciencias aplicadas como la medicina y la ingeniería, en muchas de sus ramas.
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
-        h2 2.1. La materia
+        h2 2.1 La materia
     .row.align-items-center.mb-5
       .col-lg-7
         p.mb-5 Resulta necesario identificar atributos y cualidades de la materia en aras de lograr un mejor entendimiento de esta. Entre sus propiedades se encuentran: 
@@ -166,7 +166,7 @@
     .row.mb-5.justify-content-center
       .col-lg-8.col-xl-6
         .titulo-sexto.color-acento-contenido
-          h5 Figura 2
+          h5 Figura 1
           span Cambios de estado más comunes de la materia
         figure
           img(src='@/assets/curso/tema2/img21.svg')
@@ -179,7 +179,7 @@
       .row.mb-5.justify-content-center
         .col-lg-10.col-xl-9
           .titulo-sexto.color-acento-contenido
-            h5 Figura 3
+            h5 Figura 2
             span Clasificación de la materia
           figure
             img.mb-3(src='@/assets/curso/tema2/img22.svg')

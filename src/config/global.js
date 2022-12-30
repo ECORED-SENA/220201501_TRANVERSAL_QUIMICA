@@ -158,7 +158,7 @@ export default {
       referencia:
         'Descobrint LHC. (2 abril de 2012). Breve historia del <em>big bang</em>.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=VN42W5_cL7o',
+      link: 'https://www.youtube.com/watch?v=a9L9-ddwcrE',
     },
     {
       tema: 'Ciencia: Fundamentos, conceptualización básica',
@@ -171,7 +171,7 @@ export default {
       tema: 'Ciencia: Fundamentos, conceptualización básica',
       referencia:
         'Tierno, S., Del Río, E., Donoso, J.M. (2015). ¿El cuarto estado de la materia? Introducción al plasma para estudios preuniversitarios. Revista Eureka sobre Enseñanza y Divulgación de las Ciencias, 12(3), 601-607.',
-      tipo: 'Video',
+      tipo: 'PDF',
       link: 'https://www.redalyc.org/articulo.oa?id=92041414015',
     },
     {

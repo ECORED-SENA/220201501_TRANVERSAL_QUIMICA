@@ -78,7 +78,7 @@
               .col-md-9.mb-4.mb-md-0.d-flex.justify-content-center.align-items-center
                 div
                   h4.txt-color2 Nikola Tesla
-                  p.text-white Inventor	e	ingeniero serbocroata, nacionalizado estadounidense. Dedicó su vida al entendimiento de la electricidad y sus misterios. Esconocido	por	sus	brillantes aportes	y	contribuciones	al electromagnetismo,	al desarrollo del sistema de corriente       alterna       y       la transferencia       de       energía eléctrica e información de forma inalámbrica. Más allá de sus particularidades, el mundo, tal y como se le conoce, se debe en gran parte a él y su brillante mente científica.
+                  p.text-white Inventor	e	ingeniero serbocroata, nacionalizado estadounidense. Dedicó su vida al entendimiento de la electricidad y sus misterios. Es conocido	por	sus	brillantes aportes	y	contribuciones	al electromagnetismo,	al desarrollo del sistema de corriente       alterna       y       la transferencia       de       energía eléctrica e información de forma inalámbrica. Más allá de sus particularidades, el mundo, tal y como se le conoce, se debe en gran parte a él y su brillante mente científica.
             .row(titulo="Alexander Fleming")
               .col-md-3.mb-4.mb-md-0.d-flex.justify-content-center.align-items-center
                   figure.d-flex.justify-content-center
@@ -103,7 +103,7 @@
           figure
             img.img-t.m-auto(src='@/assets/curso/tema1/img13.png', alt='') 
         .col-lg-8(data-aos="fade-right") 
-          p Por otro lado, se enfocan en estudiar, comprender, explicar y predecir los fenómenos de la naturaleza; según Oxford (2021), un fenómeno se define como cualquier “manifestación de una actividad que se produce en la naturaleza y se percibe a través de los sentidos”. La Física, la Química y la Biología son los ejemplos clásicos en esta categoría. Las ciencias naturales se sustentan y cimentan en principios, teorías y leyes cuya relación, semejanzas y diferencias se describen en la siguiente figura.  
+          p Por otro lado, se enfocan en estudiar, comprender, explicar y predecir los fenómenos de la naturaleza; según Oxford (2021), un fenómeno se define como cualquier “manifestación de una actividad que se produce en la naturaleza y se percibe a través de los sentidos”. La Física, la Química y la Biología son los ejemplos clásicos en esta categoría. Las ciencias naturales se sustentan y cimentan en principios, teorías y leyes cuya relación, semejanzas y diferencias se describen a continuación.
       p.mb-5.text-center Las ciencias han generado diferentes métodos, para comprar, generar nuevo conocimiento entre otras variables,  como el #[span.txt-color1 método científico.]   
       .row.justify-content-center(data-aos="fade-left").mb-5
         .col-lg-12.mb-4

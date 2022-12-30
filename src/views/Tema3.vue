@@ -61,7 +61,7 @@
             | De acuerdo con la teoría de Dalton, los átomos de un mismo átomo son idénticos. Sin embargo, se ha encontrado que átomos de un mismo elemento varían en su masa y densidad. Los átomos de un mismo elemento que presentan estas características se denominan isótopos.
           li 
             i.fas.fa-atom.colr
-            | No siempre se cumple que la combinación de átomos de diferentes elementos se de en una proporción de números enteros simples para formar compuestos, como es el caso de la sacarosa o azúcar común, un compuesto orgánico de mayor complejidad (C12H22O11).
+            | No siempre se cumple que la combinación de átomos de diferentes elementos de en una proporción de números enteros simples para formar compuestos, como es el caso de la sacarosa o azúcar común, un compuesto orgánico de mayor complejidad (C12H22O11).
         p Previo a introducir conceptualmente el modelo actual del átomo, es necesario revisar, brevemente, los descubrimientos que permitieron su desarrollo.
       .col-xl-5
         figure.d-flex.justify-content-center
@@ -142,7 +142,7 @@
       .bgr.px-5.pt-3.pb-4.mb-3(data-aos="fade-down-right")
         h3.mb-0  Niveles de energía
 
-    p.mb-5 Un elemento puede tener hasta 7 niveles de energía, los cuales se denotan con letras mayúsculas que van desde la (K) hasta la (Q). Cada nivel tiene una capacidad limitada de electrones que se van completando de acuerdo al número atómico del elemento y al orden de la tabla spin. que se encuentra a continuación:
+    p.mb-5 Un elemento puede tener hasta 7 niveles de energía, los cuales se denotan con letras mayúsculas que van desde la (K) hasta la (Q). Cada nivel tiene una capacidad limitada de electrones que se van completando de acuerdo al número atómico del elemento y al orden de la tabla spin, que se encuentra a continuación:
     
     figure.mb-5.d-flex.justify-content-center
       img.w-auto(src='@/assets/curso/tema3/img8.svg')
@@ -706,16 +706,16 @@
       .row.mb-5.justify-content-center
         .col-xl-4.mb-3.mb-xl-0
           .tarjeta.bgr_3.h-100.p-3.p-xl-5.text-center
-            h3 QUIMICA ORGÁNICA
+            h3 QUÍMICA ORGÁNICA
             p Único elemento capaz de formar compuestos en cadena con hidrógeno, oxígeno y otros 
             figure.mb-3.d-flex.justify-content-center
               img.w-auto(src='@/assets/curso/tema3/img29.svg')
-            p Componente principal de los carbohidratos lípidos, proteinas y ácidos  nucleicos
+            p Componente principal de los carbohidratos, lípidos, proteínas y ácidos  nucleicos
             figure.d-flex.justify-content-center
               img.w-auto(src='@/assets/curso/tema3/img30.svg')
         .col-xl-4
           .tarjeta.bgr_9.h-100.p-3.p-xl-5.text-center
-            h3 QUIMICA DEL CARBONO
+            h3 QUÍMICA DEL CARBONO
             p.mb-5 Elemento químico presente en los seres vivos 
             figure.mb-5.d-flex.justify-content-center
               img.w-auto(src='@/assets/curso/tema3/img31.svg')
@@ -757,7 +757,7 @@
               img.w-auto(src='@/assets/curso/tema3/img36.svg')
           div.tarjeta.color-acento-botones--borde.p-4(titulo="Aromáticos ")
             h4 Aromáticos 
-            p Hacen referencia a los derivados de la molécula de benceno, C6H6    
+            p Hacen referencia a los derivados de la molécula de benceno, C6H6.   
             figure.d-flex.justify-content-center
               img.w-auto(src='@/assets/curso/tema3/img37.svg')
       .col-6.col-md-4.col-xl-3
@@ -818,7 +818,7 @@
       .col-xl-6.bgr_9.p-5
         h4.text-center Aminas 
         p.text-center La anilina, una amina aromática, y sus derivados son sustancias de uso amplio y diverso. Entre éstos se encuentra la fabricación de pigmentos, pinturas y barnices. 
-        p.mb-5 Las moléculas orgánicas pueden representarse de múltiples maneras. La imagen corresponde al ácido butanoico en su fórmula: (a) Desarrollada, (b) Simplificada (cada vértice es un átomo de carbono. (c) Condensada. 
+        p.mb-5 Las moléculas orgánicas pueden representarse de múltiples maneras. La imagen corresponde al ácido butanoico en su fórmula: (a) Desarrollada, (b) Simplificada (cada vértice es un átomo de carbono). (c) Condensada. 
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/tema3/img43.svg')
     
